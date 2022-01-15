@@ -5,3 +5,4 @@ The repo contains essential scripts and datasets to reproduce bioinformatics ana
 2. Scripts used to reprocess single-cell data from Cheung et al. 2018 can be found in `scRNAseq_analysis/` folder.
    * To run this script, download data from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE120410 into `scRNAseq_analysis/input_files/`
 3. Scripts used to run scMappR can be found in `scRNAseq_analysis/` folder.
+   * Run single-cell reprocessing scripts (2.) prior to running this script
