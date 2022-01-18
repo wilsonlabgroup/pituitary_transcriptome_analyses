@@ -1,5 +1,5 @@
 ## To run scMappR scripts:
-Ensure that you are using Seurat v3.2.3.
+Ensure that you are using Seurat v3.2.3 and R ver ≥ 4.0.
 * The script relies on a single-cell dataset reprocessed from Cheung et al. 2018.
 Raw data for this dataset can be downloaded here: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE120410
 * Place raw data in a folder: `scRNAseq_analysis/input_files/GSE120410_Cheung_2018/`
