@@ -1,0 +1,16 @@
+                     pval
+48946|SUZ12  4.818201e-18
+8828|SUZ12   3.106679e-17
+4603|SUZ12   5.616835e-17
+2161|EZH2    1.892268e-16
+39696|SUZ12  2.483812e-16
+[48946, 8828, 4603, 2161, 39696]
+            species factor factor_type  ...            cell_type  tissue   qc
+id                                      ...                                  
+48946  Mus musculus  SUZ12          cr  ...  Embryonic Stem Cell  Embryo  1.0
+8828   Mus musculus  SUZ12          cr  ...  Embryonic Stem Cell  Embryo  1.0
+4603   Mus musculus  SUZ12          cr  ...  Embryonic Stem Cell  Embryo  1.0
+2161   Mus musculus   EZH2          cr  ...  Embryonic Stem Cell  Embryo  1.0
+39696  Mus musculus  SUZ12          cr  ...  Embryonic Stem Cell  Embryo  1.0
+
+[5 rows x 7 columns]

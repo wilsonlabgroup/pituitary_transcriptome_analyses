@@ -1,0 +1,538 @@
+,pval,species,factor,factor_type,cell_line,cell_type,tissue,qc,TF
+38481|RNF2,1.1644659975194125e-09,Mus musculus,RNF2,predicted transcription factor,E14,Embryonic Stem Cell,Embryo,1.0,RNF2
+41872|EZH2,1.6824446750969965e-09,Mus musculus,EZH2,cr,E14,Embryonic Stem Cell,Embryo,1.0,EZH2
+8828|SUZ12,1.7036987938424781e-09,Mus musculus,SUZ12,cr,,Embryonic Stem Cell,Embryo,1.0,SUZ12
+35897|H2AZ,3.826317988588877e-09,Mus musculus,H2AZ,predicted chromatin regulator,,B Lymphocyte,,1.0,H2AZ
+48329|SPI1,2.499320147470086e-08,Mus musculus,SPI1,predicted transcription factor,,Embryonic Stem Cell,Embryo,1.0,SPI1
+58293|NRF1,2.9627090299079753e-08,Mus musculus,NRF1,tf,,Embryonic Stem Cell,Embryo,1.0,NRF1
+43419|KMT2B,5.800755818416002e-08,Mus musculus,KMT2B,cr,E14,Embryonic Stem Cell,Embryo,1.0,KMT2B
+52674|C17orf96,7.351097996743346e-08,Mus musculus,C17orf96,not sure,E14,Embryonic Stem Cell,Embryo,1.0,C17orf96
+8907|TBX3,7.768221202418326e-08,Mus musculus,TBX3,tf,,Myocyte,Heart,1.0,TBX3
+53132|ZFP57,1.1191076333867128e-07,Mus musculus,ZFP57,tf,,Embryonic Stem Cell,,1.0,ZFP57
+50164|CHRM2,1.2385231601916462e-07,Mus musculus,CHRM2,predicted chromatin regulator,,,Limb Bud,1.0,CHRM2
+52523|TFAP2C,1.3872677103287786e-07,Mus musculus,TFAP2C,predicted transcription factor,,,Mammary Gland,1.0,TFAP2C
+53113|TCF12,2.022501778814536e-07,Mus musculus,TCF12,tf,,Embryonic Stem Cell,Embryo,1.0,TCF12
+43659|UTF1,2.3780051095137936e-07,Mus musculus,UTF1,tf,KH2,Embryonic Stem Cell,Embryo,1.0,UTF1
+40271|FOXA2,2.535787530084384e-07,Mus musculus,FOXA2,tf,,,Pancreas,1.0,FOXA2
+47291|FEZF2,5.37454001785736e-07,Mus musculus,FEZF2,tf,,Neurosphere,,1.0,FEZF2
+4404|JARID2,5.828438886601792e-07,Mus musculus,JARID2,cr,,Embryonic Stem Cell,Embryo,1.0,JARID2
+34027|KDM2B,7.029381361070769e-07,Mus musculus,KDM2B,cr,,Embryonic Stem Cell,Embryo,1.0,KDM2B
+44862|SMARCA4,9.09052975591182e-07,Mus musculus,SMARCA4,cr,,Epithelium,Neural Tube,1.0,SMARCA4
+53170|DPPA2,9.64688615282436e-07,Mus musculus,DPPA2,predicted chromatin regulator,CGR8,Embryonic Stem Cell,Embryo,1.0,DPPA2
+44342|KLF5,1.3859640100540621e-06,Mus musculus,KLF5,tf,CGR8,Embryonic Stem Cell,Embryo,1.0,KLF5
+55110|PPARG,1.6179528953355387e-06,Mus musculus,PPARG,tf,,,Epididymal White Adipose Tissue,1.0,PPARG
+59428|HEY1,1.696150777908136e-06,Mus musculus,HEY1,tf,,Embryonic Stem Cell,Embryo,1.0,HEY1
+56133|RBFOX2,1.8488946478465308e-06,Mus musculus,RBFOX2,other,,,Heart,1.0,RBFOX2
+41583|AR,2.581147140308598e-06,Mus musculus,AR,tf,,Epithelium,Prostate,0.0,AR
+8980|MEN1,2.775136170818717e-06,Mus musculus,MEN1,tf,3.2N,Embryonic Stem Cell,Embryo,1.0,MEN1
+34039|NANOG,4.611261878267407e-06,Mus musculus,NANOG,tf,,Embryonic Stem Cell,Embryo,1.0,NANOG
+41316|KDM4C,7.949328281701247e-06,Mus musculus,KDM4C,cr,,Embryonic Stem Cell,Embryo,1.0,KDM4C
+9033|TET1,8.75129878316076e-06,Mus musculus,TET1,cr,P19.6,,Embryo,1.0,TET1
+4405|MTF2,9.783754692402912e-06,Mus musculus,MTF2,cr,,Embryonic Stem Cell,Embryo,1.0,MTF2
+44801|CEBPB,1.2081530706363519e-05,Mus musculus,CEBPB,tf,3T3-L1,Preadipocyte,Adipose,1.0,CEBPB
+2907|NELFA,1.509117311748186e-05,Mus musculus,NELFA,not sure,V6.5,Embryonic Stem Cell,Embryo,1.0,NELFA
+38475|CBX7,2.107008581049728e-05,Mus musculus,CBX7,cr,E14,Embryonic Stem Cell,Embryo,1.0,CBX7
+37400|PR,2.1810787064542778e-05,Mus musculus,PR,predicted transcription factor,,,Uterus,1.0,PR
+4606|TAF3,2.266833588113697e-05,Mus musculus,TAF3,cr,,Embryonic Stem Cell,Embryo,1.0,TAF3
+44806|MED1,2.278618802316029e-05,Mus musculus,MED1,predicted transcription factor,3T3-L1,Preadipocyte,Adipose,1.0,MED1
+58789|nan,2.296405628029581e-05,,,,,,,,nan
+55118|NR3C1,2.823310746759806e-05,Mus musculus,NR3C1,tf,,,Adipose,1.0,NR3C1
+51763|SOX2,3.4011933175872265e-05,Mus musculus,SOX2,tf,,Multipotent progenitor cell,Otic,1.0,SOX2
+8830|PHF19,3.5638589044447794e-05,Mus musculus,PHF19,cr,E14,Embryonic Stem Cell,Embryo,1.0,PHF19
+51326|ZIC1/2,4.660202062402927e-05,Mus musculus,ZIC1/2,other,,,Cerebellum,1.0,ZIC1/2
+5761|TBP,5.659387634215745e-05,Mus musculus,TBP,tf,V6.5,Embryonic Stem Cell,Embryo,1.0,TBP
+8304|KDM1A,6.033715121544123e-05,Mus musculus,KDM1A,cr,V6.5,Embryonic Stem Cell,Embryo,1.0,KDM1A
+39887|CEBPA,6.956971364562611e-05,Mus musculus,CEBPA,tf,,Epithelium,Liver,1.0,CEBPA
+44552|KLF4,7.780049521473438e-05,Mus musculus,KLF4,tf,CGR8,Embryonic Stem Cell,Embryo,1.0,KLF4
+55425|NEUROD2,0.00011620015130219162,Mus musculus,NEUROD2,tf,,Embryonic Cortex,Brain,1.0,NEUROD2
+44753|ESR1,0.00012527178532335757,Mus musculus,ESR1,tf,,,Uterus,1.0,ESR1
+48516|OTX2,0.00013374463874037324,Mus musculus,OTX2,tf,,Embryonic Stem Cell,Embryo,1.0,OTX2
+8910|NKX2-5,0.0001338342594850885,Mus musculus,NKX2-5,tf,,Myocyte,Heart,1.0,NKX2-5
+39791|T,0.00014690307249263528,Mus musculus,T,tf,,,Testis,1.0,T
+44797|RXRA,0.00014754024251094,Mus musculus,RXRA,tf,3T3-L1,Preadipocyte,Adipose,1.0,RXRA
+52892|CREBBP,0.00015436301999157298,Mus musculus,CREBBP,cr,,Cortical Neuron,,1.0,CREBBP
+55092|HRAS,0.0001576226988142301,Mus musculus,HRAS,other,,Embryonic Fibroblast,,1.0,HRAS
+5412|NOTCH1,0.00017816324086220568,Mus musculus,NOTCH1,both predicted transcription factor and chromatin regulator,,T Lymphocyte,Lymph Node,1.0,NOTCH1
+177|RXRG,0.00022542774192276514,Mus musculus,RXRG,tf,3T3-L1,Preadipocyte,Adipose,1.0,RXRG
+404|DPY30,0.00023111458055727612,Mus musculus,DPY30,cr,E14,Embryonic Stem Cell,Embryo,1.0,DPY30
+49584|FOS,0.00023893108634490863,Mus musculus,FOS,tf,,Cortical Neuron,Neuric,1.0,FOS
+35602|5HMC,0.0002474710139404553,Mus musculus,5HMC,other,E14,Embryonic Stem Cell,Embryo,1.0,5HMC
+58144|SIX4,0.00024755066327671944,Mus musculus,SIX4,tf,C2C12,Myoblast,Muscle,1.0,SIX4
+48487|POU5F1,0.0002562126078167656,Mus musculus,POU5F1,tf,,Embryonic Stem Cell,Embryo,1.0,POU5F1
+51762|MYC,0.00025645948945308836,Mus musculus,MYC,tf,,Multipotent progenitor cell,Otic,1.0,MYC
+1533|TBX5,0.00027500486835529227,Mus musculus,TBX5,tf,HL-1,Cardiomyocyte,Muscle,1.0,TBX5
+52802|FGFR1,0.00028765718762345765,Mus musculus,FGFR1,not sure,,Embryonic Stem Cell,Embryo,1.0,FGFR1
+54374|STAT1,0.00029255162440105717,Mus musculus,STAT1,tf,,T Lymphocyte,Spleen,1.0,STAT1
+4498|PRDM14,0.00030151921498214763,Mus musculus,PRDM14,tf,,Embryonic Stem Cell,Embryo,1.0,PRDM14
+55978|SMC1A,0.00030305448616472824,Mus musculus,SMC1A,predicted chromatin regulator,R1,Embryonic Stem Cell,Embryo,1.0,SMC1A
+37573|ISL1,0.0003057587293694829,Mus musculus,ISL1,tf,Ainv15,Neural Progenitor Cell,Embryo,1.0,ISL1
+40276|RBPJL,0.0003057587293694829,Mus musculus,RBPJL,tf,,,Pancreas,1.0,RBPJL
+57748|FOXD3,0.0003131132693231972,Mus musculus,FOXD3,tf,,Embryonic Stem Cell,,1.0,FOXD3
+54181|SOX9,0.0003252236817360028,Mus musculus,SOX9,tf,,Chondrocyte,Nasal septum ,1.0,SOX9
+53115|SMAD2/3,0.00034627122629728245,Mus musculus,SMAD2/3,tf,,,Endoderm,1.0,SMAD2/3
+2864|NIPBL,0.00035776810555073813,Mus musculus,NIPBL,not sure,V6.5,Embryonic Stem Cell,Embryo,1.0,NIPBL
+5877|E2F4,0.0003599064339376739,Mus musculus,E2F4,tf,,Fibroblast,Embryo,0.0,E2F4
+47684|GATA4,0.00036137633553208465,Mus musculus,GATA4,tf,,Epithelium,Heart,1.0,GATA4
+51036|TDG,0.00038386512325538837,Mus musculus,TDG,other,E14,Embryonic Stem Cell,Embryo,1.0,TDG
+41417|CREB1,0.00038458464795927406,Mus musculus,CREB1,tf,3T3-L1,Preadipocyte,Adipose,1.0,CREB1
+52111|INSM1,0.0003851852081604226,Mus musculus,INSM1,tf,,Beta cell,Pancreatic Islet,1.0,INSM1
+53949|YY1,0.00041248824715547813,Mus musculus,YY1,tf,,Embryonic Stem Cell,Embryo,1.0,YY1
+36206|MBD4,0.0004132574306998481,Mus musculus,MBD4,cr,,Embryonic Stem Cell,Embryo,0.0,MBD4
+2765|STAT5B,0.0004498348964613789,Mus musculus,STAT5B,tf,,T Lymphocyte,Lymph Node,0.0,STAT5B
+44732|RUNX1,0.0004588002305622137,Mus musculus,RUNX1,tf,,Thymocyte,,0.0,RUNX1
+37750|RBBP5,0.0004814992708941426,Mus musculus,RBBP5,cr,CMTi-1,Embryonic Stem Cell,Embryo,1.0,RBBP5
+5806|E2F3,0.0005043080053118524,Mus musculus,E2F3,tf,,Fibroblast,Embryo,1.0,E2F3
+51890|PRDM16,0.0005070926536227947,Mus musculus,PRDM16,tf,,,Adipose,1.0,PRDM16
+53918|NR1D1,0.0005088013824383978,Mus musculus,NR1D1,tf,,,Epididymal White Adipose Tissue,1.0,NR1D1
+59139|OLIG2,0.0005434532978372698,Mus musculus,OLIG2,tf,CD-1,Neural Stem Cell,Brain,1.0,OLIG2
+44066|RUNX2,0.000547935025303823,Mus musculus,RUNX2,tf,MC3T3,,,1.0,RUNX2
+39593|RELA,0.0005544689989243146,Mus musculus,RELA,tf,,Dendritic Cell,Bone Marrow,1.0,RELA
+35036|POLR2B,0.0005717266761189919,Mus musculus,POLR2B,tf,,Epithelium,Liver,1.0,POLR2B
+3247|ETS1,0.000651878962770943,Mus musculus,ETS1,tf,,Th2,Blood,0.0,ETS1
+6030|MAPK8,0.0006579694263792303,Mus musculus,MAPK8,not sure,,Neuron,Brain,1.0,MAPK8
+4415|PAXIP1,0.0006639133791540473,Mus musculus,PAXIP1,predicted transcription factor,,B Lymphocyte,Spleen,1.0,PAXIP1
+54659|MEIS1,0.0006711115090435308,Mus musculus,MEIS1,tf,,,optic cups,1.0,MEIS1
+39114|CTCF,0.0007346109051903058,Mus musculus,CTCF,tf,,B Lymphocyte,,1.0,CTCF
+49571|FOSB,0.0007489348186814854,Mus musculus,FOSB,tf,,Cortical Neuron,Neuric,1.0,FOSB
+37647|JUN,0.0007691929569449839,Mus musculus,JUN,tf,,Macrophage,Bone Marrow,1.0,JUN
+40067|BATF,0.0007696488164745715,Mus musculus,BATF,predicted transcription factor,,Th0,,1.0,BATF
+47780|GRHL3,0.0007925273206083273,Mus musculus,GRHL3,predicted transcription factor,,,Skin,1.0,GRHL3
+8273|HDAC2,0.0008071723973944139,Mus musculus,HDAC2,cr,V6.5,Embryonic Stem Cell,Embryo,1.0,HDAC2
+40277|PTF1A,0.0008131478240625046,Mus musculus,PTF1A,tf,,,Pancreas,0.0,PTF1A
+39127|KAT8,0.0008296075528917322,Mus musculus,KAT8,cr,,Embryonic Stem Cell,Embryo,1.0,KAT8
+8918|SMAD3,0.0008347523220483704,Mus musculus,SMAD3,tf,,Cortex,,1.0,SMAD3
+41607|TFAP2A,0.0008687877468827543,Mus musculus,TFAP2A,predicted transcription factor,,,Caput Epididymis,1.0,TFAP2A
+35236|MBD1,0.0008764653212080095,Mus musculus,MBD1,cr,,Embryonic Stem Cell,Embryo,0.0,MBD1
+6033|NFYA,0.0009581388674018114,Mus musculus,NFYA,tf,,Neuron,Brain,1.0,NFYA
+37876|MAFF,0.0009707640733125183,Mus musculus,MAFF,tf,,Dendritic Cell,Bone Marrow,1.0,MAFF
+47612|MCRS1,0.0009752897200434472,Mus musculus,MCRS1,cr,WT26,Embryonic Stem Cell,Embryo,1.0,MCRS1
+36909|ERF,0.000987261858611953,Mus musculus,ERF,tf,,Embryonic Fibroblast,,1.0,ERF
+39926|GFI1,0.0010290428885036938,Mus musculus,GFI1,predicted transcription factor,,,Bone Marrow,1.0,GFI1
+51780|GATA1,0.001064427243249952,Mus musculus,GATA1,tf,G1E,Erythroid Cell,Blood,1.0,GATA1
+52659|PKNOX1,0.0011493924112791526,Mus musculus,PKNOX1,tf,,Embryonic Stem Cell,,1.0,PKNOX1
+48427|RBPJ,0.0011736805131271886,Mus musculus,RBPJ,tf,,,Neural Tube,1.0,RBPJ
+44794|PBX1,0.001216710702869916,Mus musculus,PBX1,tf,3T3-L1,Preadipocyte,Adipose,1.0,PBX1
+37566|FOXO1,0.0012278665259991119,Mus musculus,FOXO1,tf,,T Lymphocyte,,0.0,FOXO1
+41643|POLR3G,0.0012398220814186915,Mus musculus,POLR3G,tf,Hepa 1-6,Epithelium,Liver,1.0,POLR3G
+4584|STAT3,0.0012511715680491935,Mus musculus,STAT3,tf,,Embryonic Stem Cell,Embryo,1.0,STAT3
+51105|CHD8,0.0012766933896607633,Mus musculus,CHD8,cr,,Cortex,Frontal,1.0,CHD8
+39881|RPA,0.001345065804614807,Mus musculus,RPA,other,,B Lymphocyte,Spleen,1.0,RPA
+43895|GATA2,0.001360749763471545,Mus musculus,GATA2,tf,,,Uterus,1.0,GATA2
+4396|LDB1,0.0013692342607990848,Mus musculus,LDB1,not sure,,Haematopoietic Progenitor Cell,Bone Marrow,1.0,LDB1
+48849|GPS2,0.0013926200259421085,Mus musculus,GPS2,not sure,3T3-L1,Preadipocyte,Adipose,0.0,GPS2
+259|HOXC9,0.0014235668418857395,Mus musculus,HOXC9,tf,Ainv15,Neural Progenitor Cell,Embryo,1.0,HOXC9
+3286|GATA3,0.0014352319237530516,Mus musculus,GATA3,tf,,T Lymphocyte,Blood,1.0,GATA3
+44147|SRF,0.001453505759472669,Mus musculus,SRF,tf,NIH-3T3,Fibroblast,Embryo,1.0,SRF
+2888|SETDB1,0.0014596440699783495,Mus musculus,SETDB1,cr,V6.5,Embryonic Stem Cell,Embryo,1.0,SETDB1
+38212|ARNTL,0.0015007538573091565,Mus musculus,ARNTL,predicted transcription factor,,Epithelium,Liver,0.0,ARNTL
+180|STAT5A,0.0015874856408905915,Mus musculus,STAT5A,tf,3T3-L1,Preadipocyte,Adipose,1.0,STAT5A
+36980|MBD3,0.0015941378799905327,Mus musculus,MBD3,cr,,Embryonic Fibroblast,,1.0,MBD3
+327|SIN3A,0.0016318621736157418,Mus musculus,SIN3A,tf,C2C12,Myoblast,Muscle,0.0,SIN3A
+44215|NCOA2,0.0017107083726850911,Mus musculus,NCOA2,cr,,Epithelium,Hindbrain,1.0,NCOA2
+8919|KDM6B,0.0017470663762557074,Mus musculus,KDM6B,cr,,Cortex,,1.0,KDM6B
+53213|DAXX,0.0017533554745157967,Mus musculus,DAXX,not sure,,Embryonic Stem Cell,Embryo,1.0,DAXX
+35673|KMT2C,0.0017650202673250774,Mus musculus,KMT2C,cr,,Embryonic Fibroblast,Embryo,1.0,KMT2C
+39306|NCAPD3,0.0017747948167421684,Mus musculus,NCAPD3,predicted chromatin regulator,V6.5,Embryonic Stem Cell,Embryo,1.0,NCAPD3
+2855|KDM2A,0.0017836339898059015,Mus musculus,KDM2A,cr,V6.5,Embryonic Stem Cell,Embryo,1.0,KDM2A
+52040|EZH1,0.0017954818490128516,Mus musculus,EZH1,cr,,,Mammary Gland,1.0,EZH1
+55306|Input,0.0018133878979972422,Mus musculus,Input,other,,,Small Intestine,1.0,Input
+45|NPAS4,0.0018138875984349,Mus musculus,NPAS4,tf,,Cortical Neuron,Neuric,0.0,NPAS4
+55371|PAX6,0.0018143874240974652,Mus musculus,PAX6,tf,,,lens,1.0,PAX6
+52800|NR4A1,0.0018198937791477168,Mus musculus,NR4A1,tf,,Embryonic Stem Cell,Embryo,1.0,NR4A1
+41637|POLR3GL,0.0018588657270235012,Mus musculus,POLR3GL,tf,,Epithelium,Liver,1.0,POLR3GL
+58851|MTA2,0.0018965121653375925,Mus musculus,MTA2,tf,,Thymocyte,Thymus,1.0,MTA2
+52883|TRIM33,0.0019738909422483486,Mus musculus,TRIM33,predicted chromatin regulator,38B9,Pre-B Lymphocyte,Blood,1.0,TRIM33
+58556|CLOCK,0.001981459462224008,Mus musculus,CLOCK,tf,BetaTC6,,,1.0,CLOCK
+56095|TGIF1,0.0019852535956655696,Mus musculus,TGIF1,tf,,Embryonic Stem Cell,Embryo,1.0,TGIF1
+4604|TAF1,0.001986881671366304,Mus musculus,TAF1,tf,,Embryonic Stem Cell,Embryo,1.0,TAF1
+4511|RAP1A,0.001990685230355632,Mus musculus,RAP1A,not sure,,Fibroblast,Embryo,1.0,RAP1A
+51913|IRF1,0.0019917731751594872,Mus musculus,IRF1,tf,,Macrophage,Bone Marrow,1.0,IRF1
+33656|RAD51,0.002004870687582198,Mus musculus,RAD51,predicted chromatin regulator,,B Lymphocyte,,1.0,RAD51
+48539|ZBTB17,0.0020108998054751926,Mus musculus,ZBTB17,tf,,Fibroblast,Embryo,1.0,ZBTB17
+41357|SUPT5H,0.0020119977754830577,Mus musculus,SUPT5H,tf,,Embryonic Stem Cell,Embryo,1.0,SUPT5H
+35248|MBD2,0.002034626430952419,Mus musculus,MBD2,cr,,Embryonic Stem Cell,Embryo,0.0,MBD2
+35619|GRIP1,0.0020586068734533103,Mus musculus,GRIP1,not sure,,Macrophage,Bone Marrow,1.0,GRIP1
+52987|KDM3A,0.0021090574416543872,Mus musculus,KDM3A,cr,,Adipocyte,,1.0,KDM3A
+32916|BRCA1,0.00219247091923739,Mus musculus,BRCA1,predicted chromatin regulator,,B Lymphocyte,Spleen,1.0,BRCA1
+50721|TAL1,0.00220198753094226,Mus musculus,TAL1,tf,,Mesodermal Cell,,1.0,TAL1
+9283|DMC1,0.0022899540886352843,Mus musculus,DMC1,not sure,,,Testis,1.0,DMC1
+57883|IKZF1,0.002341728044014119,Mus musculus,IKZF1,tf,ILC87,T Lymphocyte,,1.0,IKZF1
+328|SIN3B,0.0023785339975811327,Mus musculus,SIN3B,tf,C2C12,Myoblast,Muscle,0.0,SIN3B
+38464|FOXP3,0.0023849325112868373,Mus musculus,FOXP3,tf,,T Lymphocyte,Blood,1.0,FOXP3
+405|E2F1,0.002389420735414102,Mus musculus,E2F1,tf,E14,Embryonic Stem Cell,Embryo,1.0,E2F1
+34445|OGT,0.0023984201228447496,Mus musculus,OGT,other,,Embryonic Stem Cell,Embryo,0.0,OGT
+53728|SMCHD1,0.0025324033385953518,Mus musculus,SMCHD1,predicted chromatin regulator,,Neural Stem Cell,,1.0,SMCHD1
+50930|RB1,0.002542567077976014,Mus musculus,RB1,tf,,Embryonic Fibroblast,,0.0,RB1
+3251|FLI1,0.002576713068282336,Mus musculus,FLI1,tf,,T Lymphocyte,Blood,1.0,FLI1
+485|MYB,0.002587037373468967,Mus musculus,MYB,tf,ERMYB,Myeloid Progenitor Cell,Bone Marrow,1.0,MYB
+55947|HNF1B,0.002593940995375913,Mus musculus,HNF1B,tf,IMCD3,,Kidney,1.0,HNF1B
+59458|AFF3,0.0026057153650704905,Mus musculus,AFF3,tf,,Embryonic Fibroblast,,1.0,AFF3
+41858|POU3F2,0.0026217222544839603,Mus musculus,POU3F2,tf,,Neural Progenitor Cell,,1.0,POU3F2
+57844|DICER1,0.0026294090801131783,Mus musculus,DICER1,not sure,,Fibroblast,,1.0,DICER1
+37888|ETS2,0.0026294090801131783,Mus musculus,ETS2,tf,,Dendritic Cell,Bone Marrow,1.0,ETS2
+42961|PARP14,0.0026802276109120925,Mus musculus,PARP14,not sure,,T Lymphocyte,Blood,1.0,PARP14
+50584|IRF7,0.0027167588957593184,Mus musculus,IRF7,tf,,Myeloid Cell,Bone Marrow,0.0,IRF7
+38059|KDM5C,0.00274936502760066,Mus musculus,KDM5C,cr,,Embryonic Stem Cell,Embryo,1.0,KDM5C
+37161|MECP2,0.00275155127688257,Mus musculus,MECP2,cr,,Cortex,Brain,1.0,MECP2
+41952|RUNX3,0.002757388947973077,Mus musculus,RUNX3,tf,,Natural Killer Cell,Spleen,1.0,RUNX3
+5099|BRD3,0.002761774534164113,Mus musculus,BRD3,predicted chromatin regulator,,Macrophage,Bone Marrow,1.0,BRD3
+4411|NFIC,0.002802270024354091,Mus musculus,NFIC,tf,,Fibroblast,Embryo,1.0,NFIC
+50212|GTF2B,0.0028052359450130237,Mus musculus,GTF2B,tf,,,Heart,0.0,GTF2B
+"35263|PKNOX1, PKNOX2",0.002835051291649761,Mus musculus,"PKNOX1, PKNOX2",tf,,,Embryo Trunk,1.0,"PKNOX1, PKNOX2"
+55539|RAG1,0.002864396161091812,Mus musculus,RAG1,cr,,B Lymphocyte,Embryo,1.0,RAG1
+52112|NEUROD1,0.0028749968488604736,Mus musculus,NEUROD1,tf,,Beta cell,Pancreatic Islet,1.0,NEUROD1
+48225|BRD4,0.0029154492444299386,Mus musculus,BRD4,cr,,Embryonic Fibroblast,Embryo,0.0,BRD4
+5367|LUZP1,0.0029254495726177346,Mus musculus,LUZP1,not sure,E14,Embryonic Stem Cell,Embryo,1.0,LUZP1
+52238|RUVBL1,0.002948645366333861,Mus musculus,RUVBL1,cr,,Embryonic Stem Cell,,0.0,RUVBL1
+44781|NCOR1,0.002949421406427875,Mus musculus,NCOR1,cr,3T3-L1,Preadipocyte,Adipose,0.0,NCOR1
+3292|GTF2A1,0.0029548588434277997,Mus musculus,GTF2A1,tf,,T Lymphocyte,Blood,1.0,GTF2A1
+43655|RARA,0.002991601925704601,Mus musculus,RARA,tf,,,Liver,1.0,RARA
+44368|KMT2A,0.003063111940230107,Mus musculus,KMT2A,not sure,C2C12,Myoblast,Muscle,1.0,KMT2A
+181|TCF7,0.0030711517829075203,Mus musculus,TCF7,tf,3T3-L1,Preadipocyte,Adipose,1.0,TCF7
+41641|POLR3D,0.0030832471822927923,Mus musculus,POLR3D,tf,Hepa 1-6,Epithelium,Liver,1.0,POLR3D
+50683|RFX6,0.00318322739955608,Mus musculus,RFX6,tf,MIN6B1,Beta cell,Pancreas,1.0,RFX6
+56036|RFX3,0.003184890449919582,Mus musculus,RFX3,predicted transcription factor,MIN6,Beta cell,,1.0,RFX3
+35211|NCOA3,0.003218316063292201,Mus musculus,NCOA3,cr,E14,Embryonic Stem Cell,Embryo,1.0,NCOA3
+47024|NFE2,0.0032452834343844397,Mus musculus,NFE2,tf,,Epithelium,Liver,1.0,NFE2
+32928|SMC5,0.003357812883850817,Mus musculus,SMC5,predicted chromatin regulator,,B Lymphocyte,Spleen,1.0,SMC5
+44734|TCF7L1,0.00336741970360679,Mus musculus,TCF7L1,tf,,Thymocyte,Blood,0.0,TCF7L1
+57943|USP16,0.0033709192131056247,Mus musculus,USP16,other,,Hematopoietic stem and progenitor cell,Bone Marrow,1.0,USP16
+37870|PER1,0.003415825364673265,Mus musculus,PER1,predicted transcription factor,,Epithelium,Liver,0.0,PER1
+55792|ATRX,0.003419370046830944,Mus musculus,ATRX,cr,J1,Embryonic Stem Cell,Embryo,1.0,ATRX
+68|KLF1,0.003431802477402867,Mus musculus,KLF1,predicted transcription factor,,B Lymphocyte,Liver,0.0,KLF1
+9938|AHR,0.003449633546546653,Mus musculus,AHR,tf,,Dendritic Cell,Bone Marrow,0.0,AHR
+48508|FAIRE,0.003460372096604766,Mus musculus,FAIRE,other,,Stem cell,Ectoderm,1.0,FAIRE
+39105|ERG,0.003462164771576603,Mus musculus,ERG,other,,,Blood,1.0,ERG
+41371|SMC3,0.003473837507858686,Mus musculus,SMC3,predicted chromatin regulator,,B Lymphocyte,Spleen,1.0,SMC3
+49496|CDK7,0.0034954800829800604,Mus musculus,CDK7,predicted transcription factor,V6.5,Embryonic Stem Cell,Embryo,1.0,CDK7
+37872|CRY1,0.003499098929130748,Mus musculus,CRY1,not sure,,Epithelium,Liver,0.0,CRY1
+41753|ASH1L,0.0035145165920899193,Mus musculus,ASH1L,cr,,Embryonic Stem Cell,Embryo,1.0,ASH1L
+44168|ELK3,0.003525436348830918,Mus musculus,ELK3,tf,NIH-3T3,Fibroblast,Embryo,1.0,ELK3
+33652|H2AFX,0.00354920040065982,Mus musculus,H2AFX,predicted chromatin regulator,,B Lymphocyte,,1.0,H2AFX
+42002|SMAD1,0.0035510343480235967,Mus musculus,SMAD1,predicted transcription factor,,,,1.0,SMAD1
+50597|IRF8,0.0035878924064120525,Mus musculus,IRF8,tf,,,Bone Marrow,0.0,IRF8
+40135|ETV6,0.003588818241567084,Mus musculus,ETV6,tf,,Th17,,1.0,ETV6
+44275|SREBF1,0.003588818241567084,Mus musculus,SREBF1,tf,,Epithelium,Liver,1.0,SREBF1
+38476|RYBP,0.0036129653482378757,Mus musculus,RYBP,tf,E14,Embryonic Stem Cell,Embryo,0.0,RYBP
+51241|RFX5,0.003641008506336808,Mus musculus,RFX5,tf,,T Lymphocyte,,1.0,RFX5
+37792|NPAS2,0.0036428849763314006,Mus musculus,NPAS2,tf,,Epithelium,Liver,0.0,NPAS2
+48108|HNF4A,0.003643823536702211,Mus musculus,HNF4A,tf,,Epithelium,Liver,0.0,HNF4A
+8336|SOX11,0.003659812295178685,Mus musculus,SOX11,tf,,Neural Progenitor Cell,Embryo,0.0,SOX11
+44846|BCL11A,0.003667358174678917,Mus musculus,BCL11A,predicted transcription factor,MEL,Erythroid Progenitor Cell,Blood,1.0,BCL11A
+53639|NLRP3,0.0036796500032580774,Mus musculus,NLRP3,other,,T Lymphocyte,Spleen,1.0,NLRP3
+53080|NKX3-2,0.0036957796956641905,Mus musculus,NKX3-2,tf,,,Embryonic vertebral column,1.0,NKX3-2
+43320|THRB,0.003710064416388815,Mus musculus,THRB,tf,,,Liver,1.0,THRB
+51238|NLRC5,0.003711972782825739,Mus musculus,NLRC5,tf,,T Lymphocyte,,0.0,NLRC5
+41895|EGR2,0.003717703165943493,Mus musculus,EGR2,tf,,T Lymphocyte,Spleen,0.0,EGR2
+44847|BIRA,0.0037378220416665717,Mus musculus,BIRA,not sure,MEL,Erythroid Progenitor Cell,Blood,1.0,BIRA
+51766|TRIM28,0.0037378220416665717,Mus musculus,TRIM28,cr,C2C12,Myoblast,Muscle,1.0,TRIM28
+51958|NFATC2,0.003742626618318697,Mus musculus,NFATC2,tf,,T Lymphocyte,,0.0,NFATC2
+57997|HDAC1,0.003755144446995532,Mus musculus,HDAC1,cr,,,Ectoderm,0.0,HDAC1
+3229|ELL2,0.003756108910171925,Mus musculus,ELL2,predicted chromatin regulator,,Embryonic Stem Cell,Embryo,1.0,ELL2
+59040|DDX5,0.0037580385029188476,Mus musculus,DDX5,predicted chromatin regulator,,Th17,,1.0,DDX5
+9222|EBF1,0.0037802927920004537,Mus musculus,EBF1,tf,,B Lymphocyte,Spleen,0.0,EBF1
+33050|SRSF2,0.0038016899893659538,Mus musculus,SRSF2,other,,Embryonic Fibroblast,Embryo,0.0,SRSF2
+39599|RELB,0.003805592033048625,Mus musculus,RELB,tf,,Dendritic Cell,Bone Marrow,0.0,RELB
+49082|GM6871,0.003805592033048625,Mus musculus,GM6871,other,ES3,Embryonic Stem Cell,Embryo,0.0,GM6871
+57222|BMI1,0.003808520921531357,Mus musculus,BMI1,cr,,Embryonic Stem Cell,,0.0,BMI1
+33070|IRF4,0.003808520921531357,Mus musculus,IRF4,predicted transcription factor,,B Lymphocyte,,0.0,IRF4
+9247|MYOD1,0.003808520921531357,Mus musculus,MYOD1,tf,,Myoblast,Skeletal Muscle,0.0,MYOD1
+33045|SRSF1,0.0038173197148900647,Mus musculus,SRSF1,other,,Embryonic Fibroblast,Embryo,0.0,SRSF1
+58100|SUMO1,0.003824175813674636,Mus musculus,SUMO1,other,,Dendritic Cell,Bone Marrow,1.0,SUMO1
+39636|REL,0.003840872312975583,Mus musculus,REL,tf,,Dendritic Cell,Bone Marrow,0.0,REL
+8346|HOXA9,0.003847766311089805,Mus musculus,HOXA9,tf,,Myeloid Cell,Bone Marrow,0.0,HOXA9
+5582|SOX6,0.0038734697862250287,Mus musculus,SOX6,tf,,Myoblast,Muscle,0.0,SOX6
+56087|SMARCA5,0.0038754533350500416,Mus musculus,SMARCA5,cr,,,Nucleus Accumben,1.0,SMARCA5
+53638|STAT6,0.0038804161897525243,Mus musculus,STAT6,tf,,T Lymphocyte,Spleen,0.0,STAT6
+9043|KDM6A,0.0038824029256312523,Mus musculus,KDM6A,cr,,Fibroblast,Embryo,0.0,KDM6A
+57970|HMGA2,0.003885384738425733,Mus musculus,HMGA2,tf,,Embryonic Fibroblast,,0.0,HMGA2
+50233|GATA6,0.003885384738425733,Mus musculus,GATA6,tf,,Embryonic Fibroblast,,0.0,GATA6
+33103|ZNF335,0.003885384738425733,Mus musculus,ZNF335,tf,,,Telencephalon,0.0,ZNF335
+48962|H3Pan,0.003885384738425733,Mus musculus,H3Pan,other,,Spermatid,Testis,0.0,H3Pan
+9164|KDM4D,0.003885384738425733,Mus musculus,KDM4D,cr,,Dendritic Cell,,0.0,KDM4D
+32973|FOXO3,0.003885384738425733,Mus musculus,FOXO3,tf,,Macrophage,Bone Marrow,0.0,FOXO3
+50744|HAND1,0.003885384738425733,Mus musculus,HAND1,not sure,,Mesodermal Cell,,0.0,HAND1
+49163|CBX5,0.003885384738425733,Mus musculus,CBX5,cr,,Neural Progenitor Cell,,0.0,CBX5
+33117|KDM5A,0.003885384738425733,Mus musculus,KDM5A,cr,,Embryonic Stem Cell,Embryo,0.0,KDM5A
+32911|BRDU,0.003885384738425733,Mus musculus,BRDU,other,,B Lymphocyte,Spleen,0.0,BRDU
+33121|DDIT3,0.003885384738425733,Mus musculus,DDIT3,tf,,Embryonic Fibroblast,Embryo,0.0,DDIT3
+53388|TOP2B,0.003885384738425733,Mus musculus,TOP2B,predicted chromatin regulator,,Neuron,,0.0,TOP2B
+9640|BCL6,0.003885384738425733,Mus musculus,BCL6,predicted transcription factor,,Macrophage,Bone Marrow,0.0,BCL6
+9157|NKX3-1,0.003917318655516611,Mus musculus,NKX3-1,tf,,Epithelium,Prostate,0.0,NKX3-1
+9166|KDM4A,0.0039203244821072025,Mus musculus,KDM4A,cr,,Dendritic Cell,,0.0,KDM4A
+49288|RAD21,0.003932368460961915,Mus musculus,RAD21,not sure,,,Intestinal Crypt,0.0,RAD21
+47109|POLR3A,0.003962623542952992,Mus musculus,POLR3A,tf,,,Skin,1.0,POLR3A
+48389|H3S28ph,0.003966673266481268,Mus musculus,H3S28ph,other,Swiss-3T3,Fibroblast,,1.0,H3S28ph
+53415|PPARA,0.004000225172051273,Mus musculus,PPARA,tf,,Erythroid Cell,Liver,0.0,PPARA
+55305|PRDM1,0.004068092321294164,Mus musculus,PRDM1,tf,,,Small Intestine,1.0,PRDM1
+37887|HIF1A,0.004072238413485108,Mus musculus,HIF1A,predicted chromatin regulator,,Dendritic Cell,Bone Marrow,1.0,HIF1A
+38468|HSF1,0.004073275527322377,Mus musculus,HSF1,tf,,Striatal Cell,,1.0,HSF1
+44175|SPNS1,0.00407535046426761,Mus musculus,SPNS1,tf,NIH-3T3,Fibroblast,Embryo,1.0,SPNS1
+4636|WDR5,0.004094067511257532,Mus musculus,WDR5,cr,,Embryonic Stem Cell,Embryo,1.0,WDR5
+56606|SATB2,0.004116001273127713,Mus musculus,SATB2,tf,,Cortex,Brain,1.0,SATB2
+56273|AEBP2,0.0041254336032571295,Mus musculus,AEBP2,tf,,,Thymus,0.0,AEBP2
+57187|CTNNB1,0.0041254336032571295,Mus musculus,CTNNB1,tf,,Haematopoietic Progenitor Cell,,0.0,CTNNB1
+47819|GLI3,0.004149626378194204,Mus musculus,GLI3,tf,,Epithelium,Limb Bud,0.0,GLI3
+43115|PRDM5,0.004248748710866491,Mus musculus,PRDM5,tf,,Embryonic Fibroblast,,1.0,PRDM5
+46415|ZMIZ1,0.004260611786425955,Mus musculus,ZMIZ1,not sure,CH12,Lymphoblastoid,Blood,1.0,ZMIZ1
+56092|BAZ1A,0.0042898559023872,Mus musculus,BAZ1A,cr,,,Nucleus Accumben,1.0,BAZ1A
+5919|TBX20,0.004290942455697901,Mus musculus,TBX20,tf,,Cardiomyocyte,Heart,1.0,TBX20
+53159|DNMT3A,0.004301821528022723,Mus musculus,DNMT3A,cr,J1,Embryonic Stem Cell,Embryo,1.0,DNMT3A
+58544|SMAD1/5,0.004301821528022723,Mus musculus,SMAD1/5,tf,E14,Embryonic Stem Cell,Embryo,1.0,SMAD1/5
+38466|CBFB,0.004348883026344622,Mus musculus,CBFB,predicted transcription factor,,T Lymphocyte,Blood,1.0,CBFB
+43472|KDM5B,0.0043554861983654035,Mus musculus,KDM5B,cr,R1,Embryonic Stem Cell,Embryo,1.0,KDM5B
+9271|CTCFL,0.004359893289358332,Mus musculus,CTCFL,predicted transcription factor,,Embryonic Stem Cell,Embryo,0.0,CTCFL
+44158|MKL2,0.004374243869947907,Mus musculus,MKL2,tf,NIH-3T3,Fibroblast,Embryo,1.0,MKL2
+52514|MEF2D,0.004406408906689786,Mus musculus,MEF2D,tf,,,Retina,1.0,MEF2D
+52855|MLLT3,0.004418664608585001,Mus musculus,MLLT3,not sure,,Myeloid Cell,,1.0,MLLT3
+56408|TGIF2,0.004425362364305646,Mus musculus,TGIF2,tf,J1,Embryonic Stem Cell,Embryo,1.0,TGIF2
+48981|WT1 ,0.004540620202358746,Mus musculus,WT1 ,tf,,Epithelium,Kidney,0.0,WT1 
+44160|ELK1,0.004554354643985433,Mus musculus,ELK1,tf,NIH-3T3,Fibroblast,Embryo,1.0,ELK1
+35550|SP1,0.004571574843060646,Mus musculus,SP1,predicted chromatin regulator,TSC,Trophoblast Stem Cell,Embryo,1.0,SP1
+44152|MKL1,0.00457732781156654,Mus musculus,MKL1,tf,NIH-3T3,Fibroblast,Embryo,1.0,MKL1
+52982|ARID1A,0.004614300079303429,Mus musculus,ARID1A,predicted transcription factor,,Adipocyte,,1.0,ARID1A
+48321|ATF3,0.004663230545008326,Mus musculus,ATF3,predicted transcription factor,,Macrophage,Bone Marrow,1.0,ATF3
+53760|MYO1C,0.004685517442035178,Mus musculus,MYO1C,predicted chromatin regulator,,Embryonic Fibroblast,,1.0,MYO1C
+44165|ELK4,0.0046913981861972966,Mus musculus,ELK4,tf,NIH-3T3,Fibroblast,Embryo,1.0,ELK4
+5097|BRD2,0.0047493788524289975,Mus musculus,BRD2,predicted chromatin regulator,,Macrophage,Bone Marrow,1.0,BRD2
+4120|HDAC3,0.004754140063400997,Mus musculus,HDAC3,cr,,Hepatocyte,Liver,1.0,HDAC3
+48644|ARID3A,0.00476964340992534,Mus musculus,ARID3A,tf,J1,Embryonic Stem Cell,Embryo,1.0,ARID3A
+51138|YAP1,0.0047708378403007,Mus musculus,YAP1,other,,,Heart,1.0,YAP1
+44668|RORC,0.004799584301620751,Mus musculus,RORC,tf,,Th17,,1.0,RORC
+4507|RAG2,0.004806795003875069,Mus musculus,RAG2,cr,,Thymocyte,Thymus,1.0,RAG2
+43830|PARP1,0.004817629167079027,Mus musculus,PARP1,not sure,,,Nucleus Accumben,1.0,PARP1
+9241|MYF5,0.004830900482983409,Mus musculus,MYF5,tf,,Myoblast,Skeletal Muscle,1.0,MYF5
+5472|CHD4,0.004842993586393904,Mus musculus,CHD4,cr,,Thymocyte,Thymus,1.0,CHD4
+52904|MED23,0.004847838378549023,Mus musculus,MED23,predicted transcription factor,,Cortical Neuron,,1.0,MED23
+32842|REST,0.004853900443629701,Mus musculus,REST,tf,,Neural Progenitor Cell,,1.0,REST
+57016|STAT5,0.00487577986227288,Mus musculus,STAT5,tf,,T Lymphocyte,,1.0,STAT5
+57703|TET3,0.004892857911656847,Mus musculus,TET3,cr,J1,Embryonic Stem Cell,Embryo,1.0,TET3
+8912|FOXA1,0.0049063137549076935,Mus musculus,FOXA1,tf,,Hepatocyte,Liver,1.0,FOXA1
+56594|ACTB,0.00491980256366455,Mus musculus,ACTB,other,,Embryonic Fibroblast,,1.0,ACTB
+33122|ATF4,0.004930863429480354,Mus musculus,ATF4,tf,,Embryonic Fibroblast,Embryo,1.0,ATF4
+5372|SS18,0.0049333244065492094,Mus musculus,SS18,not sure,C2C12,Myoblast,Muscle,1.0,SS18
+8860|STAG1,0.0049431792620508565,Mus musculus,STAG1,not sure,,Fibroblast,Embryo,1.0,STAG1
+44533|PHC1,0.004984016187911711,Mus musculus,PHC1,cr,V6.5,Embryonic Stem Cell,Embryo,1.0,PHC1
+55942|TP53,0.005037678722119738,Mus musculus,TP53,predicted transcription factor,,,Spleen,0.0,TP53
+53432|HNRNPL,0.005040187129330582,Mus musculus,HNRNPL,predicted transcription factor,,Embryonic Stem Cell,,1.0,HNRNPL
+35710|EOMES,0.005054003260733928,Mus musculus,EOMES,tf,TSC,Trophoblast Stem Cell,Embryo,0.0,EOMES
+56986|TCF4,0.00509058939233927,Mus musculus,TCF4,tf,,Stem cell,Intestine,1.0,TCF4
+37860|CRY2,0.005095654216174138,Mus musculus,CRY2,not sure,,Epithelium,Liver,0.0,CRY2
+35313|TNNI2,0.005101991554428808,Mus musculus,TNNI2,other,,Osteoblast,,1.0,TNNI2
+35733|CDX2,0.0051032598637345,Mus musculus,CDX2,tf,,Epithelium,Small Intestine,1.0,CDX2
+5958|RARG,0.005108335908229426,Mus musculus,RARG,tf,F9,,Embryo,1.0,RARG
+48581|HSF2,0.0051286850616286605,Mus musculus,HSF2,tf,,Spermatocyte,Testis,0.0,HSF2
+34088|HIST1H1D,0.005135058952719167,Mus musculus,HIST1H1D,cr,,Embryonic Stem Cell,Embryo,1.0,HIST1H1D
+43718|JUNB,0.005158063380912288,Mus musculus,JUNB,tf,,T Lymphocyte,,1.0,JUNB
+47459|TWIST1,0.005177303754113005,Mus musculus,TWIST1,tf,,Endocardial cushion cell,Embryonic atrioventricular canal,0.0,TWIST1
+4534|SIRT1,0.005179873956932007,Mus musculus,SIRT1,cr,,,Cerebellum,1.0,SIRT1
+52732|RAD23B,0.005204347571837185,Mus musculus,RAD23B,predicted transcription factor,D3,Embryonic Stem Cell,Embryo,1.0,RAD23B
+8938|PAX5,0.005215976206886835,Mus musculus,PAX5,tf,,B Lymphocyte,Lymph Node,0.0,PAX5
+59433|HEY2,0.005223741468182671,Mus musculus,HEY2,tf,,Cardiomyocyte,,1.0,HEY2
+52819|SIRT6,0.005241900423681693,Mus musculus,SIRT6,cr,,Embryonic Stem Cell,Embryo,1.0,SIRT6
+38179|TBX21,0.005243199638262883,Mus musculus,TBX21,tf,,Th1,,1.0,TBX21
+41359|PHF20,0.00524839936175043,Mus musculus,PHF20,cr,,Neural Progenitor Cell,,1.0,PHF20
+36217|CUX2,0.0052510009433413,Mus musculus,CUX2,tf,,Epithelium,Liver,1.0,CUX2
+56595|BAZ1B,0.005252302164285911,Mus musculus,BAZ1B,predicted chromatin regulator,,Embryonic Fibroblast,,1.0,BAZ1B
+44674|ESRRB,0.00526533015863809,Mus musculus,ESRRB,tf,ZhBTc4,Embryonic Stem Cell,Embryo,1.0,ESRRB
+41410|KLF3,0.0052783868903541475,Mus musculus,KLF3,tf,,Embryonic Fibroblast,,1.0,KLF3
+49165|SUV39H1,0.0053520381715867075,Mus musculus,SUV39H1,cr,,Neural Progenitor Cell,,1.0,SUV39H1
+53005|KAT2B,0.005434645289193167,Mus musculus,KAT2B,predicted chromatin regulator,,Embryonic Stem Cell,,1.0,KAT2B
+40138|MAF,0.005465576852910027,Mus musculus,MAF,tf,,Th0,,1.0,MAF
+50130|EED,0.005481777085509999,Mus musculus,EED,cr,,Embryonic Stem Cell,,1.0,EED
+43424|ASCL2,0.005488539766247918,Mus musculus,ASCL2,tf,,T Lymphocyte,Blood,1.0,ASCL2
+53868|HOPX,0.005496664767986932,Mus musculus,HOPX,tf,,,Embryonic Heart,1.0,HOPX
+54238|BARX1,0.005506157442919682,Mus musculus,BARX1,tf,,Mesenchymal Cell,Stomach,1.0,BARX1
+49734|MEF2A,0.005514305611790796,Mus musculus,MEF2A,tf,C2C12,Myoblast,Muscle,1.0,MEF2A
+56493|EP400,0.005562050462198701,Mus musculus,EP400,cr,,Embryonic Stem Cell,Embryo,1.0,EP400
+39613|EGR1,0.005738394240435822,Mus musculus,EGR1,tf,,Dendritic Cell,Bone Marrow,1.0,EGR1
+52891|NCOR2,0.005741210552450364,Mus musculus,NCOR2,cr,,Macrophage,Bone,0.0,NCOR2
+38069|CBX3,0.005776518099801014,Mus musculus,CBX3,cr,,Embryonic Stem Cell,Embryo,1.0,CBX3
+44448|OVOL2,0.00578076792749384,Mus musculus,OVOL2,tf,,Epithelium,,1.0,OVOL2
+33372|LHX2,0.005793534062211986,Mus musculus,LHX2,tf,,,Mouse Back Skin,1.0,LHX2
+51358|PRDM9,0.005820566971388845,Mus musculus,PRDM9,predicted transcription factor,,,Testis,1.0,PRDM9
+54378|BCL3,0.0058491435090332715,Mus musculus,BCL3,tf,CGR8,Embryonic Stem Cell,Embryo,1.0,BCL3
+41849|ASCL1,0.005942878684210378,Mus musculus,ASCL1,tf,,Neural Progenitor Cell,,0.0,ASCL1
+43719|JUND,0.005942878684210378,Mus musculus,JUND,tf,,T Lymphocyte,,1.0,JUND
+8976|ZFP42,0.005973445761688389,Mus musculus,ZFP42,tf,,Embryonic Stem Cell,Embryo,0.0,ZFP42
+2645|NR1H2,0.005988050444082201,Mus musculus,NR1H2,tf,RAW264.7,Macrophage,Blood,1.0,NR1H2
+37574|PHOX2A,0.006083754863120243,Mus musculus,PHOX2A,tf,Ainv15,Neural Progenitor Cell,Embryo,1.0,PHOX2A
+58629|DZIP3,0.0061988798122794885,Mus musculus,DZIP3,not sure,,Embryonic Stem Cell,,1.0,DZIP3
+35821|SUPT6H,0.0062427362409107545,Mus musculus,SUPT6H,tf,C2C12,Myoblast,Muscle,1.0,SUPT6H
+416|LBR,0.006273141925455354,Mus musculus,LBR,not sure,E14,Embryonic Stem Cell,Embryo,1.0,LBR
+3040|CRX,0.006303678660783092,Mus musculus,CRX,other,,,Retina,1.0,CRX
+51910|STAT2,0.006414703344345162,Mus musculus,STAT2,predicted transcription factor,,Macrophage,Bone Marrow,1.0,STAT2
+51364|ZIC2,0.0064818319217159045,Mus musculus,ZIC2,tf,,Embryonic Stem Cell,,1.0,ZIC2
+32903|TMPRSS4,0.006500676048719811,Mus musculus,TMPRSS4,other,V6.5,Embryonic Stem Cell,Embryo,1.0,TMPRSS4
+5809|HELLS,0.006581305287332646,Mus musculus,HELLS,predicted chromatin regulator,,Fibroblast,Embryo,1.0,HELLS
+53929|RORA,0.006613165191773598,Mus musculus,RORA,tf,,,Liver,1.0,RORA
+53248|MED12,0.006849902327936557,Mus musculus,MED12,predicted transcription factor,,Embryonic Stem Cell,Embryo,1.0,MED12
+33052|HEXIM1,0.00713325438214053,Mus musculus,HEXIM1,other,,Embryonic Fibroblast,Embryo,0.0,HEXIM1
+54372|KLF15,0.007200093526558873,Mus musculus,KLF15,tf,,Embryonic Fibroblast,,1.0,KLF15
+58992|MEF2C,0.007302259114777023,Mus musculus,MEF2C,predicted transcription factor,BMiFLT3(15-3),Pre-B Lymphocyte,,1.0,MEF2C
+40294|NKX6-1,0.007478342038088323,Mus musculus,NKX6-1,tf,,,Pancreatic Islet,1.0,NKX6-1
+55334|AICDA,0.007494371486809302,Mus musculus,AICDA,cr,,B Lymphocyte,Spleen,1.0,AICDA
+46470|NELFE,0.0075767733636581324,Mus musculus,NELFE,not sure,MEL,Erythroid Progenitor Cell,Blood,1.0,NELFE
+2984|AFF4,0.007696395573191117,Mus musculus,AFF4,tf,,Embryonic Stem Cell,Embryo,1.0,AFF4
+41420|Ubiquitin,0.007821378326749173,Mus musculus,Ubiquitin,other,3T3-L1,Preadipocyte,Adipose,1.0,Ubiquitin
+8343|SOX3,0.007845474367026917,Mus musculus,SOX3,predicted transcription factor,C2C12,Myoblast,Muscle,1.0,SOX3
+59362|CSTF3,0.007903197869187244,Mus musculus,CSTF3,other,S194,B Lymphocyte,,1.0,CSTF3
+47617|MSL2,0.007938761127407159,Mus musculus,MSL2,cr,WT26,Embryonic Stem Cell,Embryo,1.0,MSL2
+37839|PER2,0.008008419955056597,Mus musculus,PER2,predicted transcription factor,,Epithelium,Liver,0.0,PER2
+54454|SLC5A5,0.008151270710181473,Mus musculus,SLC5A5,predicted transcription factor,,Myoblast,Muscle,1.0,SLC5A5
+41940|HIRA,0.008207103710422232,Mus musculus,HIRA,predicted transcription factor,,Embryonic Stem Cell,Embryo,1.0,HIRA
+41551|CLK1,0.008247743962080965,Mus musculus,CLK1,not sure,,,Liver,1.0,CLK1
+50239|SPIB,0.008265215254643994,Mus musculus,SPIB,tf,,Lymphocyte,,1.0,SPIB
+5070|CDK9,0.008451626092235412,Mus musculus,CDK9,tf,,Macrophage,Bone Marrow,1.0,CDK9
+41201|AURKB,0.008455589873772741,Mus musculus,AURKB,not sure,,B Lymphocyte,Spleen,1.0,AURKB
+54462|MYOG,0.008509260833160788,Mus musculus,MYOG,tf,,Myotube cell,Muscle,1.0,MYOG
+3295|GTF2F1,0.008519232638668087,Mus musculus,GTF2F1,tf,,T Lymphocyte,Blood,1.0,GTF2F1
+4513|RFX1,0.008597365257777925,Mus musculus,RFX1,tf,,Neural Progenitor Cell,Embryo,0.0,RFX1
+54706|BRWD1,0.00874530430075094,Mus musculus,BRWD1,cr,,B Lymphocyte,,0.0,BRWD1
+4397|MAFA,0.008814965963950011,Mus musculus,MAFA,tf,,Epithelium,Pancreatic Islet,0.0,MAFA
+43178|CXXC1,0.008897543151841759,Mus musculus,CXXC1,tf,E14,Embryonic Stem Cell,Embryo,1.0,CXXC1
+8841|ELL,0.008912063640798136,Mus musculus,ELL,predicted chromatin regulator,,Embryonic Stem Cell,Embryo,1.0,ELL
+53015|SCML2,0.00907105603683088,Mus musculus,SCML2,tf,,Spermatocyte,,1.0,SCML2
+50383|PWP1,0.009109073961693276,Mus musculus,PWP1,not sure,,Embryonic Stem Cell,,1.0,PWP1
+39315|TFE3,0.009172747243851006,Mus musculus,TFE3,tf,,Embryonic Stem Cell,Embryo,1.0,TFE3
+44828|GSK3B,0.009172747243851006,Mus musculus,GSK3B,other,,Embryonic Fibroblast,,1.0,GSK3B
+449|SMAD2,0.009236809802922342,Mus musculus,SMAD2,predicted transcription factor,E14,Embryonic Stem Cell,Embryo,1.0,SMAD2
+43789|POU3F1,0.009251813954680334,Mus musculus,POU3F1,tf,,Embryonic Stem Cell,Embryo,1.0,POU3F1
+49166|SUV39H2,0.009305574465557524,Mus musculus,SUV39H2,cr,,Neural Progenitor Cell,,1.0,SUV39H2
+48081|CBX8,0.009448817553364582,Mus musculus,CBX8,cr,E14,Embryonic Stem Cell,Embryo,1.0,CBX8
+44222|SMARCC2,0.009906106748984022,Mus musculus,SMARCC2,cr,,Epithelium,Face,1.0,SMARCC2
+33940|EHF,0.010425379480847392,Mus musculus,EHF,tf,,,Corneal Epithelium,0.0,EHF
+2410|NELFB,0.010437289321429887,Mus musculus,NELFB,not sure,,Fibroblast,Embryo,1.0,NELFB
+37715|PRDM4,0.010513793472737823,Mus musculus,PRDM4,tf,CCE,Embryonic Stem Cell,Embryo,1.0,PRDM4
+9103|TEAD4,0.010595614071334112,Mus musculus,TEAD4,tf,TSC,Trophoblast Stem Cell,Embryo,0.0,TEAD4
+55329|NBN,0.01086660776542291,Mus musculus,NBN,tf,,B Lymphocyte,Spleen,1.0,NBN
+44360|ING1,0.01089378867823112,Mus musculus,ING1,predicted chromatin regulator,C2C12,Myoblast,Muscle,1.0,ING1
+54301|H3F3B,0.010975686720910413,Mus musculus,H3F3B,other,R1,Embryonic Stem Cell,Embryo,0.0,H3F3B
+39702|IRF3,0.011090741144587291,Mus musculus,IRF3,tf,,Macrophage,Bone Marrow,1.0,IRF3
+41418|PSMB1,0.01122714219279645,Mus musculus,PSMB1,not sure,3T3-L1,Preadipocyte,Adipose,1.0,PSMB1
+51961|ZIC3,0.01128312970232721,Mus musculus,ZIC3,tf,,Embryonic Stem Cell,,1.0,ZIC3
+52258|ETV2,0.011447384420352274,Mus musculus,ETV2,tf,,Embryonic Stem Cell,Embryo,1.0,ETV2
+41323|CTR9,0.011737191986994432,Mus musculus,CTR9,both predicted transcription factor and chromatin regulator,,Embryonic Stem Cell,Embryo,1.0,CTR9
+55316|TRIM63,0.011848497931560495,Mus musculus,TRIM63,predicted chromatin regulator,,,Small Intestine,0.0,TRIM63
+34413|MXI1,0.012076564863973313,Mus musculus,MXI1,tf,C2C12,Myoblast,Muscle,1.0,MXI1
+41978|EHMT2,0.012330447812618616,Mus musculus,EHMT2,cr,,Embryonic Stem Cell,Embryo,1.0,EHMT2
+44790|FOSL2,0.012371826744447973,Mus musculus,FOSL2,tf,3T3-L1,Preadipocyte,Adipose,1.0,FOSL2
+35722|ELF5,0.012418868222020424,Mus musculus,ELF5,tf,TSC,Trophoblast Stem Cell,Embryo,1.0,ELF5
+8744|NR1D2,0.012482759094134764,Mus musculus,NR1D2,tf,,Epithelium,Liver,0.0,NR1D2
+35557|SFMBT1,0.012732677819005831,Mus musculus,SFMBT1,other,,Spermatid,,1.0,SFMBT1
+2759|STAT4,0.013330750670214709,Mus musculus,STAT4,tf,,T Lymphocyte,Lymph Node,0.0,STAT4
+44628|TEAD2,0.013443138544889169,Mus musculus,TEAD2,tf,Py2T,Epithelium,Mammary Gland,1.0,TEAD2
+57817|GFI1B,0.013646296249699812,Mus musculus,GFI1B,predicted transcription factor,MEL,Erythroid Progenitor Cell,Blood,1.0,GFI1B
+44270|MAX,0.013679407706745113,Mus musculus,MAX,tf,E14,Embryonic Stem Cell,Embryo,1.0,MAX
+41315|KDM4B,0.013785223919678284,Mus musculus,KDM4B,cr,,Embryonic Stem Cell,Embryo,1.0,KDM4B
+38314|SIX2,0.01423427834000836,Mus musculus,SIX2,tf,,Neural Progenitor Cell,Kidney,1.0,SIX2
+294|MSX1,0.014318688925049469,Mus musculus,MSX1,tf,C2C12,Myoblast,Muscle,0.0,MSX1
+34594|USF1,0.014425596666340709,Mus musculus,USF1,tf,,,Liver,0.0,USF1
+1594|LMO2,0.014485638011814487,Mus musculus,LMO2,not sure,HPC-7,Haematopoietic Progenitor Cell,Bone Marrow,1.0,LMO2
+47619|KANSL3,0.014612744310000475,Mus musculus,KANSL3,cr,WT26,Embryonic Stem Cell,Embryo,1.0,KANSL3
+53798|BATF3,0.014686264104069572,Mus musculus,BATF3,tf,,Dendritic Cell,,1.0,BATF3
+44214|NCOA1,0.015359053286038109,Mus musculus,NCOA1,cr,,Epithelium,Hindbrain,1.0,NCOA1
+46425|HCFC1,0.015445820920306587,Mus musculus,HCFC1,tf,,Embryonic Stem Cell,Embryo,1.0,HCFC1
+2630|CHD7,0.015879145559757953,Mus musculus,CHD7,cr,R1,Embryonic Stem Cell,Embryo,1.0,CHD7
+42982|ATOH1,0.01609968924212455,Mus musculus,ATOH1,tf,,,Intestinal Crypt,1.0,ATOH1
+51861|DNMT3B,0.016263317977828658,Mus musculus,DNMT3B,cr,,Embryonic Stem Cell,,1.0,DNMT3B
+56517|CBX2,0.016669703886512503,Mus musculus,CBX2,cr,E14Tg2A,Embryonic Stem Cell,,1.0,CBX2
+41874|DNMT3L,0.016852689800623984,Mus musculus,DNMT3L,cr,E14,Embryonic Stem Cell,Embryo,1.0,DNMT3L
+33994|TET2,0.017534677510485357,Mus musculus,TET2,cr,,,Bone Marrow,1.0,TET2
+52226|E4F1,0.018929695969929786,Mus musculus,E4F1,tf,,Embryonic Fibroblast,Embryo,1.0,E4F1
+36726|TOP2A,0.018937658152545514,Mus musculus,TOP2A,predicted chromatin regulator,,Embryonic Stem Cell,Embryo,1.0,TOP2A
+39103|MZF1,0.01898948180679176,Mus musculus,MZF1,tf,,B Lymphocyte,,1.0,MZF1
+47615|MSL1,0.01910953535484711,Mus musculus,MSL1,cr,WT26,Embryonic Stem Cell,Embryo,1.0,MSL1
+33723|SOX17,0.019649574102640618,Mus musculus,SOX17,tf,KH2,Embryonic Stem Cell,Embryo,1.0,SOX17
+50217|FOXK1,0.01995978204875261,Mus musculus,FOXK1,tf,C2C12,Myoblast,Muscle,1.0,FOXK1
+59179|NR0B2,0.020261480803296848,Mus musculus,NR0B2,tf,,,Liver,1.0,NR0B2
+40163|CDK8,0.02119425112198866,Mus musculus,CDK8,tf,,Embryonic Stem Cell,Embryo,1.0,CDK8
+3294|GTF2E2,0.02136127510652348,Mus musculus,GTF2E2,tf,,T Lymphocyte,Blood,1.0,GTF2E2
+2816|ATF7IP,0.021409831366007104,Mus musculus,ATF7IP,cr,V6.5,Embryonic Stem Cell,Embryo,1.0,ATF7IP
+8305|RCOR1,0.02340619625945978,Mus musculus,RCOR1,both predicted transcription factor and chromatin regulator,V6.5,Embryonic Stem Cell,Embryo,1.0,RCOR1
+32994|TAF7L,0.023640588895542148,Mus musculus,TAF7L,predicted transcription factor,10T1/2,Fibroblast,Embryo,1.0,TAF7L
+5471|IKZF3,0.024380278776642797,Mus musculus,IKZF3,tf,,Thymocyte,Thymus,1.0,IKZF3
+37004|BACH2,0.024479037759119637,Mus musculus,BACH2,tf,,T Lymphocyte,Blood,1.0,BACH2
+56061|GABPA,0.024842362138386958,Mus musculus,GABPA,tf,V6.5,Embryonic Stem Cell,Embryo,1.0,GABPA
+47569|PPARGC1A,0.02537797235108959,Mus musculus,PPARGC1A,tf,C2C12,Myoblast,Muscle,0.0,PPARGC1A
+55631|SOX10,0.025531304801769038,Mus musculus,SOX10,tf,Melan-a,Melanocyte,,1.0,SOX10
+36669|NR2F2,0.025659673739561937,Mus musculus,NR2F2,tf,,,Atria,1.0,NR2F2
+48620|NFYC,0.02600636929337202,Mus musculus,NFYC,tf,E14,Embryonic Stem Cell,Embryo,1.0,NFYC
+50445|AUTS2,0.02606366224074123,Mus musculus,AUTS2,not sure,,,Brain,1.0,AUTS2
+44796|VDR,0.02606366224074123,Mus musculus,VDR,tf,3T3-L1,Preadipocyte,Adipose,1.0,VDR
+50722|UBTF,0.027876249495011756,Mus musculus,UBTF,tf,NIH-3T3,Fibroblast,Embryo,1.0,UBTF
+36803|PITX1,0.028130864940168997,Mus musculus,PITX1,tf,,Epithelium,Embryonic Hindlimb Bud,1.0,PITX1
+55621|POU3F3,0.028197603883817236,Mus musculus,POU3F3,tf,,Neural Stem Cell,,1.0,POU3F3
+37690|ELL3,0.028303543410488432,Mus musculus,ELL3,predicted chromatin regulator,,Embryonic Stem Cell,Embryo,1.0,ELL3
+5221|LYL1,0.02833706674034848,Mus musculus,LYL1,predicted transcription factor,HPC-7,Haematopoietic Progenitor Cell,Bone Marrow,1.0,LYL1
+9267|ZFPM1,0.02873627446534982,Mus musculus,ZFPM1,tf,G1ME,Megakaryocyte,Bone Marrow,1.0,ZFPM1
+3000|ASH2L,0.030102840068644637,Mus musculus,ASH2L,cr,,B Lymphocyte,Spleen,1.0,ASH2L
+39309|CAPG,0.030167553710201925,Mus musculus,CAPG,predicted chromatin regulator,V6.5,Embryonic Stem Cell,Embryo,1.0,CAPG
+57297|TEC,0.031013349973756956,Mus musculus,TEC,other,,Epithelium,,1.0,TEC
+38461|ELF1,0.03174946096261805,Mus musculus,ELF1,tf,,T Lymphocyte,Blood,1.0,ELF1
+36912|NFIB,0.0317986339584748,Mus musculus,NFIB,predicted transcription factor,,Hair Follicle Stem Cell,Mouse Back Skin,1.0,NFIB
+46492|ZKSCAN1,0.034852910111459565,Mus musculus,ZKSCAN1,tf,MEL,Erythroid Progenitor Cell,Blood,1.0,ZKSCAN1
+43043|THAP11,0.035487748578406614,Mus musculus,THAP11,tf,V6.5,Embryonic Stem Cell,Embryo,1.0,THAP11
+36772|ZNF143,0.03661287954002738,Mus musculus,ZNF143,predicted transcription factor,,Embryonic Fibroblast,Embryo,1.0,ZNF143
+8667|HOXB4,0.03835155183790937,Mus musculus,HOXB4,tf,,Hematopoietic Cell,,1.0,HOXB4
+46476|CHD2,0.04069603163256619,Mus musculus,CHD2,cr,MEL,Erythroid Progenitor Cell,Blood,1.0,CHD2
+35811|NR6A1,0.041431559460429035,Mus musculus,NR6A1,not sure,,Mesenchymal Stem Cell,,1.0,NR6A1
+418|MYCN,0.0423641350360888,Mus musculus,MYCN,tf,E14,Embryonic Stem Cell,Embryo,1.0,MYCN
+421|NR5A2,0.04428827157701578,Mus musculus,NR5A2,tf,E14,Embryonic Stem Cell,Embryo,1.0,NR5A2
+48959|NUCKS1,0.04572539110141506,Mus musculus,NUCKS1,predicted transcription factor,,Hepatocyte,,1.0,NUCKS1
+50030|NFATC1,0.046015602274817095,Mus musculus,NFATC1,tf,,,Pancreas,1.0,NFATC1
+46491|MAFK,0.04795110177324133,Mus musculus,MAFK,tf,MEL,Erythroid Progenitor Cell,Blood,1.0,MAFK
+41868|TLE,0.05184336362760048,Mus musculus,TLE,not sure,,Hair Follicle Stem Cell,Mouse Back Skin,1.0,TLE
+41427|ZNF322A,0.0601620347703067,Mus musculus,ZNF322A,tf,E14,Embryonic Stem Cell,Embryo,1.0,ZNF322A
+34108|H1F0,0.06259555179934273,Mus musculus,H1F0,predicted chromatin regulator,,Embryonic Stem Cell,Embryo,1.0,H1F0
+46468|USF2,0.06271230833472616,Mus musculus,USF2,tf,MEL,Erythroid Progenitor Cell,Blood,1.0,USF2
+39349|MTOR,0.06354509326725923,Mus musculus,MTOR,other,,Epithelium,Liver,1.0,MTOR
+48059|NSL1,0.06412666024754618,Mus musculus,NSL1,not sure,E14,Embryonic Stem Cell,Embryo,1.0,NSL1
+48407|TAF9B,0.06813274691472855,Mus musculus,TAF9B,not sure,HBG3,Neuron,,1.0,TAF9B
+33909|GLI1,0.0686211706234601,Mus musculus,GLI1,tf,,,Embryo,1.0,GLI1
+34641|MYBL1,0.0692498293315122,Mus musculus,MYBL1,tf,,,Testis,0.0,MYBL1
+48099|TNFSF11,0.07074172080494365,Mus musculus,TNFSF11,other,RAW264.7,Macrophage,,1.0,TNFSF11
+46412|NFE2L2,0.07340279592572889,Mus musculus,NFE2L2,tf,CH12,Lymphoblastoid,Blood,1.0,NFE2L2
+46493|CHD1,0.07480430659024323,Mus musculus,CHD1,predicted chromatin regulator,MEL,Erythroid Progenitor Cell,Blood,1.0,CHD1
+47427|INO80,0.07492607590589509,Mus musculus,INO80,predicted chromatin regulator,J1,Embryonic Stem Cell,Embryo,1.0,INO80
+47833|SRC,0.0765104853748358,Mus musculus,SRC,not sure,,Epithelium,Liver,1.0,SRC
+9184|PAX3,0.07677080716839009,Mus musculus,PAX3,tf,,Myoblast,Skeletal Muscle,1.0,PAX3
+48619|NFYB,0.0768577305932761,Mus musculus,NFYB,tf,E14,Embryonic Stem Cell,Embryo,1.0,NFYB
+59294|CEBPG,0.07875105776747204,Mus musculus,CEBPG,tf,,Embryonic Fibroblast,Embryo,1.0,CEBPG
+3244|ERCC3,0.08264342829237575,Mus musculus,ERCC3,predicted chromatin regulator,,T Lymphocyte,Blood,1.0,ERCC3
+54346|KCR,0.08376465423106587,Mus musculus,KCR,other,,Germline stem cell,,1.0,KCR
+46411|MAZ,0.0893338301180886,Mus musculus,MAZ,tf,CH12,Lymphoblastoid,Blood,1.0,MAZ
+52224|SMAD4,0.09167956359870684,Mus musculus,SMAD4,predicted transcription factor,,,Lung,1.0,SMAD4
+46401|BHLHE40,0.09180726423358276,Mus musculus,BHLHE40,predicted transcription factor,CH12,Lymphoblastoid,Blood,1.0,BHLHE40
+57122|IKZF2,0.09193509657977222,Mus musculus,IKZF2,tf,,T Lymphocyte,,1.0,IKZF2
+33730|NKX2-1,0.10110735776204144,Mus musculus,NKX2-1,tf,,,Lung,1.0,NKX2-1
+8836|STAG2,0.10291728828597868,Mus musculus,STAG2,not sure,,Fibroblast,Embryo,1.0,STAG2
+51967|TBX19,0.10783197515522974,Mus musculus,TBX19,tf,AtT-20,,,1.0,TBX19
+58496|KAT5,0.10840790330931066,Mus musculus,KAT5,cr,E14,Embryonic Stem Cell,Embryo,1.0,KAT5
+44547|NUP98PHF23,0.11128808165457343,Mus musculus,NUP98PHF23,other,961C,,Blood,0.0,NUP98PHF23
+58557|PDX1,0.13380457618016772,Mus musculus,PDX1,tf,BetaTC6,,,1.0,PDX1
+44788|ATF7,0.13807003362498346,Mus musculus,ATF7,tf,3T3-L1,Preadipocyte,Adipose,1.0,ATF7
+58831|SUMO2,0.13907914158088466,Mus musculus,SUMO2,other,,Dendritic Cell,Bone Marrow,1.0,SUMO2
+52074|SATB1,0.14076570529866286,Mus musculus,SATB1,tf,,Thymocyte,Thymus,1.0,SATB1
+58299|RFX2,0.1420009790720565,Mus musculus,RFX2,tf,,,Testis,1.0,RFX2
+433|TFCP2,0.15057099099570553,Mus musculus,TFCP2,tf,E14,Embryonic Stem Cell,Embryo,0.0,TFCP2
+54551|ONECUT1,0.15594924210610622,Mus musculus,ONECUT1,tf,,,Liver,1.0,ONECUT1
+56412|POU2F1,0.15739627586426252,Mus musculus,POU2F1,tf,,T Lymphocyte,Spleen,1.0,POU2F1
+39355|ESRRA,0.18713693869142645,Mus musculus,ESRRA,tf,,Epithelium,Liver,1.0,ESRRA
+47457|SOX4,0.2080489943675892,Mus musculus,SOX4,tf,,Progenitor B cell,Fetal Liver,1.0,SOX4
+52828|GRHL2,0.2367962975360425,Mus musculus,GRHL2,tf,,,Placenta,1.0,GRHL2
+50096|NR0B1,0.2387678839620947,Mus musculus,NR0B1,tf,J1,Embryonic Stem Cell,Embryo,1.0,NR0B1
+34590|THRA,0.23908844476683885,Mus musculus,THRA,tf,C17.2,Neural Progenitor Cell,,1.0,THRA
+48954|REPIN1,0.24039983952784774,Mus musculus,REPIN1,predicted transcription factor,,T Lymphocyte,,1.0,REPIN1
+44787|ATF2,0.24963365029008644,Mus musculus,ATF2,predicted transcription factor,3T3-L1,Preadipocyte,Adipose,1.0,ATF2
+438|ZFX,0.2558833801882593,Mus musculus,ZFX,predicted transcription factor,E14,Embryonic Stem Cell,Embryo,1.0,ZFX
+46416|ZNF384,0.3099026737588234,Mus musculus,ZNF384,tf,CH12,Lymphoblastoid,Blood,1.0,ZNF384
+49710|FOXL2,0.40238439197000253,Mus musculus,FOXL2,tf,,Follicular  cell,Ovary,1.0,FOXL2
+44266|MITF,0.5013230535225051,Mus musculus,MITF,tf,,Mast Cell,Bone Marrow,0.0,MITF
+46426|ZC3H11A,0.50668369722258,Mus musculus,ZC3H11A,other,,Embryonic Stem Cell,Embryo,1.0,ZC3H11A
+49690|DMRTB1,0.5275217526808713,Mus musculus,DMRTB1,tf,,,Testis,1.0,DMRTB1
+9183|PAX7,0.5485576286816035,Mus musculus,PAX7,tf,,Myoblast,Skeletal Muscle,1.0,PAX7
+50391|NFIL3,0.5515238335456465,Mus musculus,NFIL3,tf,,,Liver,1.0,NFIL3
+40095|JMJD6,0.680185190187085,Mus musculus,JMJD6,cr,,Th17,,1.0,JMJD6
+53674|DMRT1,0.7205891368701629,Mus musculus,DMRT1,tf,,,Testis,1.0,DMRT1
+34005|LHX3,0.7480356791861253,Mus musculus,LHX3,tf,Ainv15,Neural Progenitor Cell,Embryo,1.0,LHX3
