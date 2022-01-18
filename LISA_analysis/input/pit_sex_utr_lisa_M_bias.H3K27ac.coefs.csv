@@ -1,0 +1,11 @@
+,coefficients,cell_line,cell_type,tissue
+52418,0.4233220525070351,,Cortex,Brain
+50773,-0.40011552187167004,,Macrophage,Peritoneal cavity
+43201,0.3173809740179092,,,Caput Epididymis
+62277,-0.27350389230142996,H3K27ac,Natural Killer Cell,Spleen
+62123,-0.13350602162033098,G1E,Erythroid Cell,Blood
+52911,0.10215286970662588,,,Hippocampus
+36273,-0.06315350036453096,,Macrophage,Bone Marrow
+36288,0.042627717102270535,,Macrophage,Bone Marrow
+48846,0.037833893756927466,,,Cerebellum
+61900,0.032415233680050864,,Lin- enriched hematopoietic stem/progenitor cells,

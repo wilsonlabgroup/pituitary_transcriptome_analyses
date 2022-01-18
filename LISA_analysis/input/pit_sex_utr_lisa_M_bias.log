@@ -1,0 +1,16 @@
+                     pval
+8828|SUZ12   9.834637e-13
+57889|SUZ12  1.877357e-10
+48946|SUZ12  9.500022e-10
+34640|CLOCK  1.417894e-09
+41603|AR     4.025662e-09
+[8828, 57889, 48946, 34640, 41603]
+            species factor  ...            tissue   qc
+id                          ...                       
+8828   Mus musculus  SUZ12  ...            Embryo  1.0
+57889  Mus musculus  SUZ12  ...            Thymus  1.0
+48946  Mus musculus  SUZ12  ...            Embryo  1.0
+34640  Mus musculus  CLOCK  ...             Liver  0.0
+41603  Mus musculus     AR  ...  Caput Epididymis  1.0
+
+[5 rows x 7 columns]

@@ -1,0 +1,11 @@
+,coefficients,cell_line,cell_type,tissue
+62443,0.8161871623262672,,,Craniofacial Tissue
+37628,0.6029570270422517,,Epithelium,Liver
+53120,0.5116217988888556,MC3T3,Preosteoblast,
+9020,-0.43288669683866093,,B Lymphocyte,Lymph Node
+52070,-0.34986936472137026,3134,Epithelium,Mammary Gland
+45088,-0.2934556545867421,416B,Myeloid Progenitor Cell,Blood
+62419,-0.2275478122585553,,,Neural Tube
+43907,-0.22703562305768146,3T3-L1,Preadipocyte,Adipose
+9018,0.05415974839402792,,B Lymphocyte,Bone Marrow
+62471,-0.017442581487413504,K562,Erythroblast,Bone Marrow

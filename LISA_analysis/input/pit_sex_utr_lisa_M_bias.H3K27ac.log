@@ -1,0 +1,57 @@
+(3170, 10)
+11.154138803482056
+1000
+(3170, 200)
+(3170, 200)
+18.872557878494263
+loading read count
+['54606' '54607' '41933' ... '53805' '46590' '34149']
+(2730901, 10)
+0 52418
+<class 'str'>
+1 50773
+<class 'str'>
+2 43201
+<class 'str'>
+3 62277
+<class 'str'>
+4 62123
+<class 'str'>
+5 52911
+<class 'str'>
+6 36273
+<class 'str'>
+7 36288
+<class 'str'>
+8 48846
+<class 'str'>
+9 61900
+<class 'str'>
+1408.8265781402588
+read count loaded
+statistics done
+2291.140715122223
+                     pval
+38481|RNF2   1.164466e-09
+41872|EZH2   1.682445e-09
+8828|SUZ12   1.703699e-09
+57889|SUZ12  2.004954e-09
+35897|H2AZ   3.826318e-09
+[38481, 41872, 8828, 57889, 35897]
+            species factor  ...  tissue   qc
+id                          ...             
+38481  Mus musculus   RNF2  ...  Embryo  1.0
+41872  Mus musculus   EZH2  ...  Embryo  1.0
+8828   Mus musculus  SUZ12  ...  Embryo  1.0
+57889  Mus musculus  SUZ12  ...  Thymus  1.0
+35897  Mus musculus   H2AZ  ...     NaN  1.0
+
+[5 rows x 7 columns]
+                     pval       species  ...  tissue   qc
+38481|RNF2   1.164466e-09  Mus musculus  ...  Embryo  1.0
+41872|EZH2   1.682445e-09  Mus musculus  ...  Embryo  1.0
+8828|SUZ12   1.703699e-09  Mus musculus  ...  Embryo  1.0
+57889|SUZ12  2.004954e-09  Mus musculus  ...  Thymus  1.0
+35897|H2AZ   3.826318e-09  Mus musculus  ...     NaN  1.0
+
+[5 rows x 8 columns]
