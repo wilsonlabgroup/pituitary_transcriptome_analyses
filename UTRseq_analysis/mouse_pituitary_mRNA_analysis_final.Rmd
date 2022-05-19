@@ -272,8 +272,8 @@ figure2_genes1 <- c("Chrna4","Kcna4","Th","Drd4", "Asb4", "Fshb","Lhb","Serpine2
 factor_plot(logCPMc, figure2_genes1, ncols = 5, sig_df = sig_df)
 
 # get top m-/f-biased genes that are consistent from PD27
-top_fbiased <- sort(ave_expr[names(ave_expr) %in% f_biased_genes_3], decreasing = T)[1:5]
-top_mbiased <- sort(ave_expr[names(ave_expr) %in% m_biased_genes_3], decreasing = T)[1:5]
+top_fbiased <- sort(ave_expr[names(ave_expr) %in% f_biased_genes_3], decreasing = T)[1:4]
+top_mbiased <- sort(ave_expr[names(ave_expr) %in% m_biased_genes_3], decreasing = T)[1:4]
 
 factor_plot(logCPMc, c(names(top_fbiased), names(top_mbiased)), ncols = 5, sig_df = sig_df)
 
@@ -554,15 +554,12 @@ names(module_assignment) <- modules$genes
 
 pclusters <- plot_clusters(module_assignment, ave, "", ncols=1) + theme(axis.text.x = element_blank(), axis.text.y = element_text(size=14), strip.text = element_text(size=14))
 
-# plot top module hub genes
-top_hub_genes <- c("Tshb", "GH", "Prl", "Fn1", "Dlk1", "Ank1", "Mki67", "Col23a1", "Fshb")
-tophub_genes <- factor_plot(logCPMc, top_hub_genes, ncols = 1)
 
 hub_df <- as.data.frame(sapply(hubs_genename, function(x) paste(x[1:10], collapse = ",")))
 colnames(hub_df) <- "Top10_hub_genes"
 
 # put together
-p <- as_ggplot(phm_modulegenes$gtable) + pclusters + tophub_genes +
+p <- as_ggplot(phm_modulegenes$gtable) + pclusters + 
   plot_layout(widths = c(4,1.5,1)) +
   theme_bw()
 
@@ -571,9 +568,9 @@ p + gridExtra::tableGrob(hub_df)
 
 ```
 
-## More example hub genes (Figure S4)
+## More example hub genes (Figure S5)
 
-```{r top-hub-expr, eval=T, fig.cap="Expression patterns of top 5 hub genes", fig.width=12, fig.height=18}
+```{r top-hub-expr, eval=T, fig.cap="Figure S5: Expression patterns of top 5 hub genes", fig.width=12, fig.height=18}
 
 top5_hub_genes <- unname(unlist(lapply(hubs_genename, function(x) x[1:5])))
 
@@ -582,9 +579,23 @@ factor_plot(logCPMc, top5_hub_genes, ncols = 5)
 ```
 
 
-## Module correlation (Figure S5A)
+## Module assignment table (Supp table 7)
 
-```{r module-cor, eval=T, fig.cap="Figure S5A: correlation of module eigengenes",fig.height=5, fig.width=5}
+```{r module-assign}
+hubs_all <- bind_rows(lapply(CEMiTool::get_hubs(cem, n="all"),enframe, name = "genes", value = "gene_connectivity"), .id="modules")
+
+modules_out <- left_join(modules,hubs_all) %>% 
+    arrange(modules, desc(gene_connectivity)) %>% 
+  select(modules, everything())
+
+#write.xlsx(modules_out, "7_supp_table_co_expression_module_assignment.xlsx")
+
+```
+
+
+## Module correlation (Figure S6A)
+
+```{r module-cor, eval=T, fig.cap="Figure S6A: correlation of module eigengenes",fig.height=5, fig.width=5}
 module_ME <- mod_summary(cem, "eigengene")
 module_ME_df <- melt(module_ME) %>%
   separate(variable, "_", into=c("id", "condition")) %>%
@@ -598,9 +609,9 @@ plot(p$gtable)
 ```
 
 
-## Module eigengene (Figure S5B)
+## Module eigengene (Figure S6B)
 
-```{r plot-eigen, eval=T, fig.cap="Figure S5B: module eigengenes", fig.width=6, fig.height=6}
+```{r plot-eigen, eval=T, fig.cap="Figure S6B: module eigengenes", fig.width=6, fig.height=6}
 ggplot(module_ME_df) +
   geom_rect(xmin = -Inf,xmax = Inf,
             ymin = -Inf,ymax = Inf,fill="gray90", alpha = 0.1) +
@@ -614,13 +625,13 @@ ggplot(module_ME_df) +
 ```
 
 
-## Pathway enrichment analysis of module genes (Figure S5C)
+## Pathway enrichment analysis of module genes (Figure S6C)
 
 ```{r module-enrich}
 module_gene_enrich <- lapply(module_list_genename, function(x) gprofiler(x, organism = "mmusculus", custom_bg = all_detected_genes, hier_filtering = "moderate", min_set_size = 5, max_set_size = 5000, min_isect_size = 3, src_filter = c("GO")))
 ```
 
-```{r module-enrich-plot,eval=T, fig.cap="Figure S5C: pathway enrichment result of co-expression modules", fig.width=12, fig.height=6}
+```{r module-enrich-plot,eval=T, fig.cap="Figure S6C: pathway enrichment result of co-expression modules", fig.width=12, fig.height=6}
 p1 <- plot_cluster_enrichment(enrich_list = module_gene_enrich[1:4], "CEMi_modules_enrichment_", width=13, exclude_domain = "hp", save = F)
 p2 <- plot_cluster_enrichment(enrich_list = module_gene_enrich[5:9], "CEMi_modules_enrichment_", width=13, exclude_domain = "hp", save = F)
 
