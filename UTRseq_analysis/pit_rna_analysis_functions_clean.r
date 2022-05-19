@@ -372,7 +372,7 @@ get_pca_plots <- function(logCPM, logCPMc, method="ruv", npc=15){
   dev.off()
 }
 
-factor_plot <- function(data, gene_name, name=FALSE, legend=TRUE, ncols=0, fix_scale=FALSE, labelSize=18, field=2, multi_factor=F, sig_df = NULL){
+factor_plot <- function(data, gene_name, name=FALSE, legend=TRUE, ncols=0, fix_scale=FALSE, labelSize=18, field=2, multi_factor=F, sig_df = NULL, convert_genename = T,ylab = "log2(normCounts)"){
   # sig_df is a data frame with 2 columns: genename and the age at which it is significant
   # example: 
   # Fshb d12
@@ -388,7 +388,10 @@ factor_plot <- function(data, gene_name, name=FALSE, legend=TRUE, ncols=0, fix_s
   }
   data <- as.data.frame(data)
   gene_data <- data[row.names(data) %in% gene_id,]
-  row.names(gene_data) <- genename[row.names(gene_data)]
+  if(convert_genename){
+    row.names(gene_data) <- genename[row.names(gene_data)]
+  }
+  
   #gene_data <- data.frame(sample=names(gene_data), logCPM=as.numeric(as.character(gene_data)))
   gene_data <- melt(as.matrix(gene_data))
   names(gene_data) <- c("factor", "sample", "logCPM")
@@ -398,7 +401,7 @@ factor_plot <- function(data, gene_name, name=FALSE, legend=TRUE, ncols=0, fix_s
   gene_data_sum <- gene_data %>%
     group_by(factor, age, sex) %>%
     #summarise(mean = mean(logCPM), sd=sd(logCPM)) %>%
-    summarise(median = median(logCPM), sd=sd(logCPM)) %>%
+    summarise(median = median(logCPM, na.rm = T), sd=sd(logCPM)) %>%
     as.data.frame()
   
   gene_data_sum$factor <- factor(gene_data_sum$factor, levels = unique(as.character(gene_name)))
@@ -409,7 +412,7 @@ factor_plot <- function(data, gene_name, name=FALSE, legend=TRUE, ncols=0, fix_s
     # find maximum y axis position
     label_loc <- gene_data %>% 
       group_by(factor) %>% 
-      summarise(ymax = max(logCPM), ymin = min(logCPM)) %>% 
+      summarise(ymax = max(logCPM, na.rm = T), ymin = min(logCPM, na.rm = T)) %>% 
       mutate(yloc = ymin + 1.1*(ymax - ymin))
     
     # filter for significant gene
@@ -433,7 +436,7 @@ factor_plot <- function(data, gene_name, name=FALSE, legend=TRUE, ncols=0, fix_s
    # scale_x_continuous(breaks=seq(10,40, by=5)) +
     scale_x_continuous(breaks=sort(as.numeric(unique(gene_data$age)))) +
     xlab("Age (postnatal days)") +
-    ylab("log2(normCounts)") +
+    ylab(ylab) +
     theme_bw() +
     theme(strip.text = element_text(size=labelSize, face="bold"),
           axis.text = element_text(size=labelSize - 2, color="black"),
@@ -464,7 +467,7 @@ factor_plot <- function(data, gene_name, name=FALSE, legend=TRUE, ncols=0, fix_s
       geom_line(aes(group=interaction(factor, sex), color=factor, linetype=sex)) +
       scale_x_continuous(breaks=sort(as.numeric(unique(gene_data$age)))) +
       xlab("Age (postnatal days)") +
-      ylab("log2(normCounts)") +
+      ylab(ylab) +
       theme_bw()+
       scale_shape_manual(values=c("F" = 16,"M" = 17)) +
       scale_color_manual(values = factor_cols)+
