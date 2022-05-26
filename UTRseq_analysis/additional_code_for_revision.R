@@ -1,8 +1,5 @@
 
 
-# normalization with ERCCs ------------------------------------------------
-
-
 # try normalization with ERCCs
 
 y <- DGEList(counts=count_table, genes=row.names(count_table), group=sampleCondition$group)
@@ -190,4 +187,42 @@ neuron_part_genes <- intersect(to_mouse(subset(enrich_list_direction$d27_sex_up,
 write_lines(neuron_part_genes, "~/Desktop/neuron_part_genes.txt")    
 write_lines(names(genename[genename %in% neuron_part_genes]), "~/Desktop/neuron_part_genes_ids.txt")  
 
+
+
+# compare DEG with UTRseq and qPCR ----------------------------------------
+
+qpcr <- read.xlsx("/mnt/mdwilson/huayun/puberty/pit_rna/scripts/pituitary_transcriptome_analyses/UTRseq_analysis/datasets/fluidigm_gender_diff_t_test_2016-10-03.xlsx")
+
+de_sig_list_wPCR <- lapply(de_sig_list, function(x) subset(x, genename %in% unique(PCR_puberty$Primer)))
+
+de_sig_list_wPCR <- bind_rows(de_sig_list_wPCR, .id = "age")
+
+de_sig_list_wPCR <- de_sig_list_wPCR %>% 
+  mutate(age = gsub("d|_sex","", age)) %>% 
+  left_join(subset(qpcr, tissue == "P"), by = c("genename"="Primer", "age"))
+
+ggplot(de_sig_list_wPCR) +
+  geom_bar(aes(x=age, fill=p_adj < 0.05))
+
+pcr_puberty_df <- PCR_puberty %>% 
+  mutate(sample= paste0("pcr_", Sample)) %>% 
+  pivot_wider(names_from = "sample", values_from = "Ct", id_cols = "Primer") %>% 
+  column_to_rownames("Primer")
+
+pcr_sig_df <- subset(qpcr, tissue == "P" & p_adj < 0.05)[,c("Primer","age")] %>% 
+  mutate(age = paste0("d",age)) %>% 
+  setNames(c("value","age"))
+
+factor_plot(pcr_puberty_df, gene_name = "Fshb", name = T, convert_genename = F, ylab = "delta Ct", sig_df = pcr_sig_df)
+
+factor_plot(logCPMc, gene_name = c("Fshb"), sig_df=sig_df)
+
+dis_genes <- unique(subset(de_sig_list_wPCR, p_adj > 0.05)$genename)
+
+p1 <- factor_plot(pcr_puberty_df, gene_name = dis_genes, name = T, convert_genename = F, ylab = "delta Ct", sig_df = pcr_sig_df, ncols = 2) + ggtitle("qPCR")
+p2 <- factor_plot(logCPMc, gene_name = dis_genes, sig_df=sig_df, ncols = 2) + ggtitle("UTRseq")
+
+p1 + p2 +  plot_annotation(tag_levels = 'A')
+ggsave("~/Dropbox/wilson_lab/active_manuscripts/pituitary_paper/RC_revision/revision_figures/utrseq_qpcr_disagree_genes.pdf", width = 12, height = 8)
+ggsave("~/Dropbox/wilson_lab/active_manuscripts/pituitary_paper/RC_revision/revision_figures/utrseq_qpcr_disagree_genes.png", width = 12, height = 8, dpi = 150, units = "in")
 
