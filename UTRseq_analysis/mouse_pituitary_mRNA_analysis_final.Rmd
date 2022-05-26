@@ -12,7 +12,7 @@ note:
    This document is used to reproduce figures in manuscript. 
    
 output: 
- bookdown::html_document2:
+  bookdown::html_document2:
     toc: true
     toc_float: true
     code_folding: hide
@@ -25,7 +25,7 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(message = FALSE, warning = FALSE, eval = FALSE)
 source("pit_rna_analysis_functions_clean.r")
-#load("mouse_pituitary_mRNA_analysis.RData")
+load("mouse_pituitary_mRNA_analysis.RData")
 ```
 
 ## read in gene count table
@@ -179,7 +179,7 @@ Average pearson correlation between biological replicates (samples from the same
 
 Pairwise differential analysis was performed using EdgeR. Genes with a FDR < 0.05 and an absolute fold change> 1.5 are considered significant.
 
-Comparisions are performed between male and female samples at each age
+Comparisons are performed between male and female samples at each age.
 
 ## DE comparison between sex
 
@@ -255,6 +255,31 @@ m_biased_genes_3 <- names(temp[temp ==3])
 # f_biased_genes_used and m_biased_genes_used are used as input for Lisa
 ```
 
+### Testing for sex-age interaction
+
+```{r, sex-age}
+# sex age interaction
+sex_age_contrasts <- makeContrasts(d12_d22 = (groupd22F - groupd12F) - (groupd22M - groupd12M),
+                                   d22_d27 = (groupd27F - groupd22F) - (groupd27M - groupd22M),
+                                   d27_d32 = (groupd32F - groupd27F) - (groupd32M - groupd27M),
+                                   d37_d32 = (groupd37F - groupd32F) - (groupd37M - groupd32M),
+                                   d32_d22 = (groupd32F - groupd22F) - (groupd32M - groupd22M),
+                                   d37_d27 = (groupd37F - groupd27F) - (groupd37M - groupd27M),
+                                   d37_d22 = (groupd37F - groupd22F) - (groupd37M - groupd22M),
+                                   levels = design)
+
+
+de_sex_age_result_list <- lapply(colnames(sex_age_contrasts), function(x) get_test_result(sex_age_contrasts, x))
+names(de_sex_age_result_list) <- colnames(sex_age_contrasts)
+de_sex_age_sig_list <- lapply(de_sex_age_result_list, function(x) subset(x, FDR < 0.05 & abs(logFC) > log2(1.5)))
+
+sig_sex_age_genes_names_list <- lapply(de_sex_age_sig_list, function(x) x$genename)
+#sig_genes_puberty <- lapply(sig_genes_names_list, function(x) x[x %in% all_puberty_genes])
+
+d12_d22_sex_diff <- de_sex_age_sig_list$d12_d22$genename
+#factor_plot(logCPMc, sort(d12_d22_sex_diff), ncols=5, name=F)
+
+```
 
 ### selecting example sex-biased genes (Figure 2C-D)
 
@@ -309,31 +334,6 @@ femaleenrichmentmap[[2]]
 femaleenrichmentmap[[3]]
 ```
 
-### Testing for sex-age interaction
-
-```{r, sex-age}
-# sex age interaction
-sex_age_contrasts <- makeContrasts(d12_d22 = (groupd22F - groupd12F) - (groupd22M - groupd12M),
-                                   d22_d27 = (groupd27F - groupd22F) - (groupd27M - groupd22M),
-                                   d27_d32 = (groupd32F - groupd27F) - (groupd32M - groupd27M),
-                                   d37_d32 = (groupd37F - groupd32F) - (groupd37M - groupd32M),
-                                   d32_d22 = (groupd32F - groupd22F) - (groupd32M - groupd22M),
-                                   d37_d27 = (groupd37F - groupd27F) - (groupd37M - groupd27M),
-                                   d37_d22 = (groupd37F - groupd22F) - (groupd37M - groupd22M),
-                                   levels = design)
-
-
-de_sex_age_result_list <- lapply(colnames(sex_age_contrasts), function(x) get_test_result(sex_age_contrasts, x))
-names(de_sex_age_result_list) <- colnames(sex_age_contrasts)
-de_sex_age_sig_list <- lapply(de_sex_age_result_list, function(x) subset(x, FDR < 0.05 & abs(logFC) > log2(1.5)))
-
-sig_sex_age_genes_names_list <- lapply(de_sex_age_sig_list, function(x) x$genename)
-#sig_genes_puberty <- lapply(sig_genes_names_list, function(x) x[x %in% all_puberty_genes])
-
-d12_d22_sex_diff <- de_sex_age_sig_list$d12_d22$genename
-#factor_plot(logCPMc, sort(d12_d22_sex_diff), ncols=5, name=F)
-
-```
 
 
 
@@ -438,31 +438,6 @@ plot(p_hm_tf$gtable)
 ```
 
 
-## testing if sex-biased genes are enriched forpituitary disease and pubertal timing associated genes 
-
-```{r test-enrich, eval=T}
-run_hyper <- function(query, geneset, total){
-  q <- length(intersect(query, geneset)) #num overlap geneset
-  m <- length(intersect(geneset, total)) # num of geneset
-  n <- length(total[!total %in% geneset]) # background that are not geneset
-  k <- length(intersect(query, total)) # num query genes
-  
-  fold <- round(q/(k*m/(m+n)),3)
-  p <- phyper(q, m, n, k, lower.tail = F)
-  return(c("num_ol"=q,"num_genes_in_geneset"=m,"num_background_noneGeneset"=n,"num_query"=k,"fold_enrichment"=fold,"pval"=p))
-}
-
-# read in all disease genes 
-disease_genes <- read.table("datasets/pituitary_puberty_genes_combined_2020-09-28.txt", header = T, sep = "\t", stringsAsFactors = F, as.is = T)
-all_disease_genes <- disease_genes$MGI.symbol
-
-all_sex_biased_genes <- unique(unlist(sig_genes_names_list_direction[1:10]))
-
-hyper_result <- run_hyper(all_sex_biased_genes, all_disease_genes, all_detected_genes)
-
-hyper_result[c("fold_enrichment","pval")]
-```
-
 
 # Co-expression analysis
 
@@ -496,9 +471,8 @@ hubs_genename <- lapply(hubs, function(x) genename[names(x)])
 
 -Left:Heatmap showing the scaled normalized expression levels of each gene, clustered separately within modules. 
 
--Middle: plot summarizing scaled normalized expression patterns of each gene in each module. Thick line represent the average profile of the module.
+-Right: plot summarizing scaled normalized expression patterns of each gene in each module. Thick line represent the average profile of the module.
 
--Right: expression profile of the top hub genes of each module.
 
 -Bottom: top 10 hub genes for each module
 
@@ -563,14 +537,16 @@ p <- as_ggplot(phm_modulegenes$gtable) + pclusters +
   plot_layout(widths = c(4,1.5,1)) +
   theme_bw()
 
-p + gridExtra::tableGrob(hub_df)
+p
+
+plot(gridExtra::tableGrob(hub_df))
 
 
 ```
 
-## More example hub genes (Figure S5)
+## Example top hub genes (Figure S4)
 
-```{r top-hub-expr, eval=T, fig.cap="Figure S5: Expression patterns of top 5 hub genes", fig.width=12, fig.height=18}
+```{r top-hub-expr, eval=T, fig.cap="Figure S4: Expression patterns of top 5 hub genes", fig.width=12, fig.height=18}
 
 top5_hub_genes <- unname(unlist(lapply(hubs_genename, function(x) x[1:5])))
 
@@ -593,9 +569,9 @@ modules_out <- left_join(modules,hubs_all) %>%
 ```
 
 
-## Module correlation (Figure S6A)
+## Module correlation (Figure S5A)
 
-```{r module-cor, eval=T, fig.cap="Figure S6A: correlation of module eigengenes",fig.height=5, fig.width=5}
+```{r module-cor, eval=T, fig.cap="Figure S5A: correlation of module eigengenes",fig.height=5, fig.width=5}
 module_ME <- mod_summary(cem, "eigengene")
 module_ME_df <- melt(module_ME) %>%
   separate(variable, "_", into=c("id", "condition")) %>%
@@ -609,9 +585,9 @@ plot(p$gtable)
 ```
 
 
-## Module eigengene (Figure S6B)
+## Module eigengene (Figure S5B)
 
-```{r plot-eigen, eval=T, fig.cap="Figure S6B: module eigengenes", fig.width=6, fig.height=6}
+```{r plot-eigen, eval=T, fig.cap="Figure S5B: module eigengenes", fig.width=6, fig.height=6}
 ggplot(module_ME_df) +
   geom_rect(xmin = -Inf,xmax = Inf,
             ymin = -Inf,ymax = Inf,fill="gray90", alpha = 0.1) +
@@ -625,7 +601,7 @@ ggplot(module_ME_df) +
 ```
 
 
-## Pathway enrichment analysis of module genes (Figure S6C)
+## Pathway enrichment analysis of module genes (Figure S5C)
 
 ```{r module-enrich}
 module_gene_enrich <- lapply(module_list_genename, function(x) gprofiler(x, organism = "mmusculus", custom_bg = all_detected_genes, hier_filtering = "moderate", min_set_size = 5, max_set_size = 5000, min_isect_size = 3, src_filter = c("GO")))
