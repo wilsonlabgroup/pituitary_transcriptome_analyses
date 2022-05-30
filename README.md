@@ -19,10 +19,10 @@ The repo contains essential scripts and datasets to reproduce bioinformatics ana
 5. Scripts used to process and integrate single-nuclei data from Ruf-Zamojski et al. 2021 can be found in `scRNAseq_analysis/` folder.
    * **Supplementary figures S6A, S6B**
 5. Scripts used to test for enrichment of co-expression module genes within snRNA-seq data can be found in `scRNAseq_analysis/` folder.
-   * **Supplementary figures S6C**
+   * **Supplementary figure S6C**
 6. Scripts used to for RNA-seq deconvolution methods can be found in `scRNAseq_analysis/` folder.
    * **Figure 5A**
-   * **Supplementary figures 7**
+   * **Supplementary figure 7**
    * **Supplementary table S8**
 7. Scripts used to identify sex-biased genes in cell types using scMappR can be found in `scRNAseq_analysis/` folder.
    * **Figure 5B**
