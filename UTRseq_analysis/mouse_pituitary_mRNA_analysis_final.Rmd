@@ -23,7 +23,7 @@ output:
 ## load libraries and source used functions
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(message = FALSE, warning = FALSE, eval = FALSE)
+knitr::opts_chunk$set(message = FALSE, warning = FALSE, eval = TRUE)
 source("pit_rna_analysis_functions_clean.r")
 #load("mouse_pituitary_mRNA_analysis.RData")
 ```
@@ -506,7 +506,7 @@ row.names(col_anno) <-sapply(strsplit(row.names(col_anno), "_"), "[[", 2)
 
 # set cutoffs for extreame values
 all_values <- as.vector(as.matrix(plotdata))
-custome_breaks <- unique(c(min(all_values), seq(quantile(all_values, 0.005), 0, length = 125), seq(0, quantile(all_values, 0.995), length=125), max(all_values)))
+custom_breaks <- unique(c(min(all_values), seq(quantile(all_values, 0.005), 0, length = 125), seq(0, quantile(all_values, 0.995), length=125), max(all_values)))
 
 # generate heatmap
 phm_modulegenes <- pheatmap(plotdata[reorder, ],
@@ -516,7 +516,7 @@ phm_modulegenes <- pheatmap(plotdata[reorder, ],
          annotation_col = col_anno[, c("age", "sex")], 
          annotation_colors = anno_cols,
          color = hmcol, 
-         breaks = custome_breaks,
+         breaks = custom_breaks,
          gaps_row = cumsum(cluster_length),
          silent = T)
 
