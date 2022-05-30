@@ -6,8 +6,6 @@ lapply(used_libraries, require, character.only=TRUE,  quietly=TRUE)
 hmcol<- colorRampPalette(brewer.pal(9, 'GnBu'))(100)
 hmcol2 <- colorRampPalette(brewer.pal(9, 'RdBu'))(250)
 hmcol_yp <- colorRampPalette(c("orange", "white", "darkmagenta") )(250)
-# load mouse breeding info
-#mouse_breeding <- readRDS("/mnt/mdwilson/huayun/puberty/phase1_mouse_breeding_info.rds")
 
 # load named vector of gene id and name match
 genename_ori <- genename <- readRDS("datasets/mm10_gencode_vM21_geneName.rds")
@@ -17,65 +15,18 @@ protein_coding <- names(genetype[genetype == "protein_coding"])
 
 sexchrgenes <- c("Xist","Ddx3y","Uty","Gm29650","Kdm5d", "Eif2s3y", "Gm27733")
 
-# load gmt files
-#mouse_GO <- readRDS("/mnt/mdwilson/huayun/reference/gmt/Mm.c5.all.v7.1.symbol.rds")
-#mouse_CP <- readRDS("/mnt/mdwilson/huayun/reference/gmt/Mm.c2.cp.v7.1.symbol.rds")
+
 
 #################################################
-
-# load information about GWAS
-#alltfs <- readRDS("/mnt/mdwilson//huayun/puberty/all_tfs_msymbol.rds")
-
-#HHgenes <- scan("~/Data/wilsonlab/puberty/fluidigm/HHgenes_mouse", what="character")
+# read in all TFs
 alltfs <- scan("datasets/mouse_TFs_animalTFDB3.txt", what = "character")
 
-disease_genes <- read.table("datasets/pituitary_puberty_genes_combined_2020-09-28.txt", header = T, as.is = T, stringsAsFactors = F)
+#disease_genes <- read.table("datasets/pituitary_puberty_genes_combined_2020-09-28.txt", header = T, as.is = T, stringsAsFactors = F)
 
-#GWAS_genes_human_mouse_anno <- readRDS("~/Dropbox/wilson_lab/Huayun/puberty/datasets/GWAS_genes_human_mouse_anno.rds")
 
-# do not run
-# gene_list <- lapply(names(GWAS_genes_human), function(x) {
-#   dat = GWAS_genes_human[[x]]
-#   return(data.frame(gene=dat, type=rep(x, length(dat))))})
-# 
-# GWAS_genes_human_anno <- do.call("rbind", gene_list) %>%
-#   group_by(gene) %>%
-#   summarize(source=paste(unique(sort(type)), collapse=";")) %>%
-#   as.data.frame()
-
-#GWAS_genes_human_mouse_anno <- merge(GWAS_genes_human_mouse_match, GWAS_genes_human_anno, by.x="HGNC.symbol", by.y="gene", all.x=T, all.y=F)
-
-# all_puberty_genes <- subset(GWAS_genes_human_mouse_anno, source !="Day2017_blood_eQTL")$MGI.symbol
-# all_puberty_genes_types <- subset(GWAS_genes_human_mouse_anno, source !="Day2017_blood_eQTL")$source
-# all_puberty_genes_types <- gsub(";Day2017_blood_eQTL", "", all_puberty_genes_types)
-# names(all_puberty_genes_types) <- all_puberty_genes
-# 
-# puberty_genes_nearest <- subset(GWAS_genes_human_mouse_anno, !source %in% c("Day2017_blood_eQTL","Day2017_hiC") )$MGI.symbol
-
-#################################################
-# get ERCC amount 
-#ERCCMix1and2 <- read.table("/mnt/mdwilson/huayun/ganno/ERCC_concentration.txt", header = T, stringsAsFactors = F, as.is = T, sep="\t")
-
-# ERCC_volume <- 2 # ul
-# ERCC_dilution <- 1000 # 1/1000
-# RNA_volume <- 0.1 # ng
-# 
-# ERCC_con <- ERCCMix1and2[, c(2,4)]
-# names(ERCC_con)[2] <- "Mix1Conc.Attomoles_ul"
-# 
-# #ERCC_con$amount <- log2((ERCC_con$Mix1Conc.Attomoles_ul*ERCC_volume/ERCC_dilution)/RNA_volume)
-# ERCC_con$amount <- log2(ERCC_con$Mix1Conc.Attomoles_ul*ERCC_volume/ERCC_dilution)
-# ERCC_con <- ERCC_con[, -2]
-# 
-# ERCC_con_v <- ERCC_con$amount
-# names(ERCC_con_v) <- ERCC_con$ERCC.ID
-
-#saveRDS(ERCC_con_v, "/mnt/mdwilson/huayun/ganno/ERCC_concentrations_2ul.rds")
 
 ##################################################a
 
-#library(devtools)
-#source_url("https://raw.githubusercontent.com/obigriffith/biostar-tutorials/master/Heatmaps/heatmap.3.R")
 
 transform_df_samplename <- function(samplenames_all, field=7, list=TRUE, batch=FALSE, return_tissue=FALSE, repdouble=FALSE){
   transformed_list <- lapply(samplenames_all, function(samplenames){
@@ -94,13 +45,7 @@ transform_df_samplename <- function(samplenames_all, field=7, list=TRUE, batch=F
     
     
     ID <- sapply(name_elements, "[[", 1)
-    # if(ID %in% c("WL551","WL552","WL553","WL554")){
-    #   batch <- "third"
-    # } else if(grepl("WL5", ID)){
-    #   batch <- "first"
-    # } else {
-    #   batch <- "second"
-    # }
+
     
     if(list){
       return(list(age, sex, rep, ID))
