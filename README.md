@@ -1,6 +1,6 @@
 # pituitary_transcriptome_analyses
 * Updated 2022/05/30
-The repo contains essential scripts and datasets to reproduce bioinformatics analyses in [Hou &amp; Chan et al. 2022](https://www.biorxiv.org/content/10.1101/2022.01.05.475069v1?rss=1) 
+* The repo contains essential scripts and datasets to reproduce bioinformatics analyses in [Hou &amp; Chan et al. 2022](https://www.biorxiv.org/content/10.1101/2022.01.05.475069v1?rss=1) 
 
 1. Scripts used to process and analyze mouse pituitary UTR-seq data can be found in `UTRseq_analysis/` folder.
    * **Figures 1C, 1D, 2A, 2C, 2D, 2F, 2G, 3B, 4**
