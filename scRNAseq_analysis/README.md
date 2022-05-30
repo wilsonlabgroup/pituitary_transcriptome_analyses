@@ -18,7 +18,7 @@ This script takes .h5 matrix files from snRNA-seq data, performs data filtering,
 
 
 ## 2. KS test of co-expression module genes in snRNA-seq data
-This script tests for the enrichment of each co-expression module gene expression within snRNA-seq data in a given cell type compared to all other cell types using a Kolgomorov-Smirnov (KS) test.
+This script tests for the enrichment of each co-expression module gene expression within snRNA-seq data in a given cell type compared to all other cell types using a Kolgomorov-Smirnov (KS) test. A copy of this analysis has been pre-compiled as `ruf_integrated_kstest_2022-05-30_rmd_ver.html`
 
 * Script is run from: `ruf_integrated_kstest_2022-05-30_rmd_ver.R`
 * `20211214_ruf_2021_pit_GSE151961_integrated_seurat.rds` generated from 1. is required for this script.
