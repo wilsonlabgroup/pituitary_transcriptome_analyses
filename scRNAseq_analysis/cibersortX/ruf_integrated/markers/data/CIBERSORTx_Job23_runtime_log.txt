@@ -1,0 +1,37 @@
+>Running CIBERSORTxFractions...
+>[Options] single_cell: TRUE
+>[Options] refsample: files/cadia.chan@Mail.utoronto.ca/ruf_integrated_no_log_data_all_markers_sc_ref_2022-03-16.txt
+>[Options] replicates: 5
+>[Options] sampling: 0.5
+>[Options] fraction: 0.5
+>[Options] k.max: 999
+>[Options] q.value: 0.01
+>[Options] G.min: 300
+>[Options] G.max: 500
+>[Options] filter: FALSE
+>[Options] verbose: TRUE
+>[Options] QN: FALSE
+>[Options] outdir: files/cadia.chan@Mail.utoronto.ca/results/
+>[Options] label: Job23
+>Making reference sample file.
+>Making phenotype class file.
+>==========Signature Matrix Settings============
+>Pure samples file:  files/cadia.chan@Mail.utoronto.ca/results//CIBERSORTx_Job23_ruf_integrated_no_log_data_all_markers_sc_ref_2022-03-16_inferred_refsample.txt 
+>Phenotype classes file:  files/cadia.chan@Mail.utoronto.ca/results//CIBERSORTx_Job23_ruf_integrated_no_log_data_all_markers_sc_ref_2022-03-16_inferred_phenoclasses.txt 
+>Minimum number of DEGs to consider from each phenotype for signature matrix set to: 300
+>Maximum number of DEGs to consider from each phenotype for signature matrix set to: 500
+>Q-value for signature matrix construction set to: 0.01 
+>Quantile normalization of input samples is disabled
+>===============================================
+>R version 3.4.4 (2018-03-15)
+>Loaded 65 columns and 1996 rows
+>=============Make Signature Matrix=============
+>Maximum condition number (kappa): 999 
+>25916 DEG expressed across 13 samples were identified
+>Group size: 499, Kappa: 19.69299756437
+>Best kappa: 19.69299756437 
+>SVD UpperRightDiag: 615737.828424655 
+>SVD LowerRightDiag: 31266.8412420206 
+>Your custom signature matrix is ready.
+NULL
+All done.
