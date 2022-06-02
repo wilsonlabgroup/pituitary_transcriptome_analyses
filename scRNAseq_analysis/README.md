@@ -31,12 +31,6 @@ This script runs RNA-seq deconvolution for six methods (Proportions in Admixture
 
 * Script is run from: `ruf_integrate_decon_final_20220524.R`
 * `scRNAseq_analysis/input/20211214_ruf_2021_pit_GSE151961_integrated_seurat.rds` generated from 1. is required for this script.
-* [CIBERSORT](https://cibersort.stanford.edu/) and [CIBERSORTx](https://cibersortx.stanford.edu/) RNA-seq deconvolution methods were run using the browser version of the tool.
-  * `scRNAseq_analysis/output/ruf_integrate/ruf_integrated_phenotype_files_2022-03-16.txt` will be used as the "Phenotype classes file" required for CIBERSORT to generate the custom signature gene matrix.
-  * `scRNAseq_analysis/ruf_integrate/ruf_integrated_no_log_data_all_markers_sc_ref_2022-03-16.txt` will be used as the "Reference sample file" to generate the custom signature gene matrix using CIBERSORT and CIBERSORTx.
-  * We have included our results from CIBERSORT and CIBERSORTx in their respective folder.
-* CPM RNA-seq deconvolution method has a long run time if run locally.
-
 
 
 
