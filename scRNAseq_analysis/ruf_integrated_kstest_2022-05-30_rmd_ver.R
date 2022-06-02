@@ -157,8 +157,16 @@ ks_org <- lapply(1:length(indices), function(x) reorg_ks(x, all_ks))
 ks_org_df <- bind_rows(ks_org)
 
 #+ num_enrich, warning = F, message = F
-sapply(1:length(ks_org), function(x) num_enrich(x))
+enrich_num <- sapply(1:length(ks_org), function(x) num_enrich(x))
+total_genes <- sum(sapply(ks_resfdr, function(x) nrow(x))) # Total num of genes used in the KS test analysis (excludes module genes which are not detected in snRNA-seq dataset)
 
+combinations <- data.frame(module = 1:length(ks_resfdr), celltype = rep(colnames(ks_resfdr[[1]]), each = length(ks_resfdr)))
+
+combinations$pvalue <- apply(combinations, 1, function(x) hypergeo_test(as.numeric(x[1]), x[2]))
+combinations$fdr <- p.adjust(combinations$pvalue, method = "fdr", n = length(combinations$pvalue))
+combinations <- mutate(combinations, sig = ifelse(fdr < 0.05, T, F)) %>%
+  mutate(sig001 = ifelse(fdr < 0.01, T, F), sig0001 = ifelse(fdr < 0.001, T, F))
+  
 
 #+ ks_heatmap_all_clusters, warning = F, message = F, width = 8, height = 10, fig.cap = "Heatmap showing enrichment of module genes in cell-types based on FDR-adjusted P-values from a KS test."
 p <- pheatmap(ks_org_df,
@@ -175,6 +183,28 @@ p <- pheatmap(ks_org_df,
               # breaks = use_breaks2,
 )
 save_phtmap_pdf(p, "output/pit_utr_module_cheung_scrna_ks_FDR_cellenrichment_no_debris.pdf", 8, 10)
+print(p)
+tmp <- dev.off()
+
+#+ ks_heatmap_all_clusters_with_NA, warning = F, message = F, width = 8, height = 10, fig.cap = "Heatmap showing enrichment of module genes in cell-types based on FDR-adjusted P-values from a KS test. (FDR > 0.05 is set to NA)"
+new_ks_org_df <- ks_org_df
+new_ks_org_df[(new_ks_org_df > 0.05)] <- NA
+
+p <- pheatmap(new_ks_org_df,
+              # border_color = "black",
+              color = colorRampPalette(c("darkmagenta", "snow2"))(250),
+              annotation_col = cell_anno[, 1, drop = F],
+              cluster_rows = F,
+              cluster_cols = F,
+              # scale = "row",
+              na_col = "snow2",
+              annotation_colors = anno_col,
+              gaps_row = indices,
+              show_rownames = F,
+              labels_col = paste(cell_anno$cluster, cell_anno$celltype) 
+              # breaks = use_breaks2,
+)
+save_phtmap_pdf(p, "output/pit_utr_module_cheung_scrna_ks_FDR_cellenrichment_no_debris_NAs_set.pdf", 8, 10)
 print(p)
 tmp <- dev.off()
 
