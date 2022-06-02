@@ -20,12 +20,10 @@
    * **Supplementary figures S6A, S6B**
 5. Scripts used to test for enrichment of co-expression module genes within snRNA-seq data can be found in `scRNAseq_analysis/` folder.
    * **Supplementary figure S6C**
-6. Scripts used to for RNA-seq deconvolution methods can be found in `scRNAseq_analysis/` folder.
+6. Scripts used for RNA-seq deconvolution can be found in `scRNAseq_analysis/` folder.
    * **Figure 5A**
-   * **Supplementary figure 7**
-   * **Supplementary table S8**
 7. Scripts used to identify sex-biased genes in cell types using scMappR can be found in `scRNAseq_analysis/` folder.
    * **Figure 5B**
-   * **Supplementary table S9**
+   * **Supplementary table S8**
 
 
